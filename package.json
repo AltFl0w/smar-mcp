@@ -1,7 +1,7 @@
 {
-	"name": "@smartsheet/smar-mcp",
+	"name": "smartsheet-connector-odoo",
 	"version": "1.6.0",
-	"description": "A Model Context Protocol (MCP) server for interacting with the Smartsheet API. This server provides tools for searching, retrieving, and updating Smartsheet sheets through the MCP protocol.",
+	"description": "A Model Context Protocol (MCP) server for integrating Smartsheet with Odoo. This server provides tools for searching, retrieving, and updating Smartsheet sheets with Odoo data synchronization through the MCP protocol.",
 	"main": "build/index.js",
 	"type": "module",
 	"bin": {
@@ -42,8 +42,8 @@
 		"llm"
 	],
 	"author": {
-		"name": "Smartsheet",
-		"url": "https://smartsheet.com"
+		"name": "Brandon Tuttle",
+		"url": "https://github.com/brandontuttle"
 	},
 	"license": "MIT",
 	"engines": {

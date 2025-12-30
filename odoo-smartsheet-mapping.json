@@ -1,0 +1,323 @@
+{
+  "mappings": [
+    {
+      "smartsheet_sheet": "Odoo_CRM Pipeline (Total)",
+      "smartsheet_sheet_id": "7f8cw4w6w6gjQXh88VJCfG9QFqX9ppvRgR6Rv921",
+      "odoo_model": "crm.lead",
+      "description": "CRM Opportunities/Leads",
+      "field_mappings": [
+        {
+          "smartsheet_column": "Opportunity",
+          "odoo_field": "name",
+          "data_type": "Char",
+          "description": "Lead/Opportunity name"
+        },
+        {
+          "smartsheet_column": "Customer",
+          "odoo_field": "partner_id.name",
+          "data_type": "Many2one",
+          "description": "Customer/Partner reference"
+        },
+        {
+          "smartsheet_column": "Account Company",
+          "odoo_field": "partner_id.parent_id.name",
+          "data_type": "Many2one",
+          "description": "Parent company of customer"
+        },
+        {
+          "smartsheet_column": "Salesperson",
+          "odoo_field": "user_id.name",
+          "data_type": "Many2one",
+          "description": "Assigned salesperson"
+        },
+        {
+          "smartsheet_column": "Expected Revenue",
+          "odoo_field": "expected_revenue",
+          "data_type": "Monetary",
+          "description": "Expected revenue amount"
+        },
+        {
+          "smartsheet_column": "Pipeline Revenue",
+          "odoo_field": "expected_revenue",
+          "data_type": "Monetary",
+          "description": "Alternative revenue field"
+        },
+        {
+          "smartsheet_column": "Stage",
+          "odoo_field": "stage_id.name",
+          "data_type": "Many2one",
+          "description": "Lead stage name"
+        },
+        {
+          "smartsheet_column": "Pipeline Stage",
+          "odoo_field": "stage_id.sequence",
+          "data_type": "Integer",
+          "description": "Lead stage sequence number"
+        },
+        {
+          "smartsheet_column": "Expected Closing",
+          "odoo_field": "date_deadline",
+          "data_type": "Date",
+          "description": "Expected closing date"
+        },
+        {
+          "smartsheet_column": "Estimated Opening Date",
+          "odoo_field": "date_open",
+          "data_type": "Date",
+          "description": "Lead opening date"
+        },
+        {
+          "smartsheet_column": "Customer/Tags",
+          "odoo_field": "tag_ids.name",
+          "data_type": "Many2many",
+          "description": "Customer tags/categories"
+        },
+        {
+          "smartsheet_column": "Closed Date",
+          "odoo_field": "date_closed",
+          "data_type": "Date",
+          "description": "Date when lead was closed"
+        }
+      ]
+    },
+    {
+      "smartsheet_sheet": "Odoo_CRM Pipeline (Total)",
+      "smartsheet_sheet_id": "7f8cw4w6w6gjQXh88VJCfG9QFqX9ppvRgR6Rv921",
+      "odoo_model": "sale.order",
+      "description": "Sales Orders/Quotes",
+      "field_mappings": [
+        {
+          "smartsheet_column": "ORDER",
+          "odoo_field": "name",
+          "data_type": "Char",
+          "description": "Sales order reference/number"
+        },
+        {
+          "smartsheet_column": "Quote/SO $",
+          "odoo_field": "amount_total",
+          "data_type": "Monetary",
+          "description": "Total order amount"
+        },
+        {
+          "smartsheet_column": "Amount Paid",
+          "odoo_field": "amount_paid",
+          "data_type": "Monetary",
+          "description": "Amount already paid"
+        },
+        {
+          "smartsheet_column": "Amount Due",
+          "odoo_field": "amount_residual",
+          "data_type": "Monetary",
+          "description": "Remaining amount due"
+        },
+        {
+          "smartsheet_column": "Customer",
+          "odoo_field": "partner_id.name",
+          "data_type": "Many2one",
+          "description": "Customer for the order"
+        },
+        {
+          "smartsheet_column": "Salesperson",
+          "odoo_field": "user_id.name",
+          "data_type": "Many2one",
+          "description": "Salesperson for the order"
+        },
+        {
+          "smartsheet_column": "Quote Date",
+          "odoo_field": "date_order",
+          "data_type": "DateTime",
+          "description": "Order/quote creation date"
+        },
+        {
+          "smartsheet_column": "Order Date",
+          "odoo_field": "date_order",
+          "data_type": "DateTime",
+          "description": "Order confirmation date"
+        },
+        {
+          "smartsheet_column": "Signed On",
+          "odoo_field": "signed_on",
+          "data_type": "DateTime",
+          "description": "Date when order was signed"
+        },
+        {
+          "smartsheet_column": "Quotation Sent",
+          "odoo_field": "state",
+          "data_type": "Selection",
+          "description": "Order state (draft, sent, sale, etc.)"
+        },
+        {
+          "smartsheet_column": "So Reference/Status",
+          "odoo_field": "state",
+          "data_type": "Selection",
+          "description": "Order status/state"
+        }
+      ]
+    },
+    {
+      "smartsheet_sheet": "Odoo_Customer Payments",
+      "smartsheet_sheet_id": "xH87mcjCmmc8jvGRWmGX33j2QWvj5mHRW87XGhQ1",
+      "odoo_model": "account.payment",
+      "description": "Customer Payments",
+      "field_mappings": [
+        {
+          "smartsheet_column": "Number",
+          "odoo_field": "name",
+          "data_type": "Char",
+          "description": "Payment reference number"
+        },
+        {
+          "smartsheet_column": "Payment Date",
+          "odoo_field": "date",
+          "data_type": "Date",
+          "description": "Payment date"
+        },
+        {
+          "smartsheet_column": "Payment Amount",
+          "odoo_field": "amount",
+          "data_type": "Monetary",
+          "description": "Payment amount"
+        },
+        {
+          "smartsheet_column": "Customer",
+          "odoo_field": "partner_id.name",
+          "data_type": "Many2one",
+          "description": "Customer who made the payment"
+        },
+        {
+          "smartsheet_column": "Journal",
+          "odoo_field": "journal_id.name",
+          "data_type": "Many2one",
+          "description": "Payment journal/bank account"
+        },
+        {
+          "smartsheet_column": "Payment Method",
+          "odoo_field": "payment_method_id.name",
+          "data_type": "Many2one",
+          "description": "Payment method used"
+        },
+        {
+          "smartsheet_column": "Status",
+          "odoo_field": "state",
+          "data_type": "Selection",
+          "description": "Payment state (draft, posted, cancelled)"
+        },
+        {
+          "smartsheet_column": "Due Date",
+          "odoo_field": "date",
+          "data_type": "Date",
+          "description": "Payment due date (same as payment date for received payments)"
+        }
+      ]
+    },
+    {
+      "smartsheet_sheet": "Odoo_Customer Payments",
+      "smartsheet_sheet_id": "xH87mcjCmmc8jvGRWmGX33j2QWvj5mHRW87XGhQ1",
+      "odoo_model": "account.move",
+      "description": "Invoices/Journal Entries",
+      "field_mappings": [
+        {
+          "smartsheet_column": "Invoice Reference",
+          "odoo_field": "name",
+          "data_type": "Char",
+          "description": "Invoice reference number"
+        },
+        {
+          "smartsheet_column": "Invoice Type",
+          "odoo_field": "move_type",
+          "data_type": "Selection",
+          "description": "Move type (out_invoice, out_refund, etc.)"
+        },
+        {
+          "smartsheet_column": "Customer",
+          "odoo_field": "partner_id.name",
+          "data_type": "Many2one",
+          "description": "Customer on the invoice"
+        },
+        {
+          "smartsheet_column": "Due Date",
+          "odoo_field": "invoice_date_due",
+          "data_type": "Date",
+          "description": "Invoice due date"
+        },
+        {
+          "smartsheet_column": "Payment Terms",
+          "odoo_field": "invoice_payment_term_id.name",
+          "data_type": "Many2one",
+          "description": "Payment terms for the invoice"
+        },
+        {
+          "smartsheet_column": "Project Name",
+          "odoo_field": "invoice_line_ids.name",
+          "data_type": "One2many",
+          "description": "Project name from invoice lines"
+        },
+        {
+          "smartsheet_column": "AR Category",
+          "odoo_field": "payment_state",
+          "data_type": "Selection",
+          "description": "Payment state (not_paid, paid, partial, etc.)"
+        }
+      ]
+    },
+    {
+      "smartsheet_sheet": "Odoo_CRM Pipeline (Total)",
+      "smartsheet_sheet_id": "7f8cw4w6w6gjQXh88VJCfG9QFqX9ppvRgR6Rv921",
+      "odoo_model": "res.partner",
+      "description": "Customer/Partner Records",
+      "field_mappings": [
+        {
+          "smartsheet_column": "Customer",
+          "odoo_field": "name",
+          "data_type": "Char",
+          "description": "Partner full name"
+        },
+        {
+          "smartsheet_column": "Account Company",
+          "odoo_field": "parent_id.name",
+          "data_type": "Many2one",
+          "description": "Parent company name"
+        },
+        {
+          "smartsheet_column": "Customer/Tags",
+          "odoo_field": "category_id.name",
+          "data_type": "Many2many",
+          "description": "Partner tags/categories"
+        }
+      ]
+    },
+    {
+      "smartsheet_sheet": "Odoo_CRM Pipeline (Total)",
+      "smartsheet_sheet_id": "7f8cw4w6w6gjQXh88VJCfG9QFqX9ppvRgR6Rv921",
+      "odoo_model": "res.users",
+      "description": "Users/Salespeople",
+      "field_mappings": [
+        {
+          "smartsheet_column": "Salesperson",
+          "odoo_field": "name",
+          "data_type": "Char",
+          "description": "User full name"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_sheets_mapped": 2,
+    "total_odoo_models": 6,
+    "total_field_mappings": 42,
+    "sheets": [
+      {
+        "name": "Odoo_CRM Pipeline (Total)",
+        "id": "7f8cw4w6w6gjQXh88VJCfG9QFqX9ppvRgR6Rv921",
+        "odoo_models": ["crm.lead", "sale.order", "res.partner", "res.users"],
+        "field_mappings": 24
+      },
+      {
+        "name": "Odoo_Customer Payments",
+        "id": "xH87mcjCmmc8jvGRWmGX33j2QWvj5mHRW87XGhQ1",
+        "odoo_models": ["account.payment", "account.move"],
+        "field_mappings": 18
+      }
+    ]
+  }
+}

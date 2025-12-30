@@ -2,7 +2,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { SmartsheetAPI } from "../apis/smartsheet-api.js";
 import { z } from "zod";
 
-export function getSheetTools(server: McpServer, api: SmartsheetAPI, allowDeleteTools: boolean) {
+export function getSheetTools(server: McpServer, api: SmartsheetAPI, allowDeleteTools: boolean, allowWriteTools: boolean) {
 
     server.tool(
       "get_sheet",
@@ -202,9 +202,10 @@ export function getSheetTools(server: McpServer, api: SmartsheetAPI, allowDelete
         }
       );
       
-      // Tool: Update Rows
-      server.tool(
-        "update_rows",
+      // Tool: Update Rows (conditionally registered)
+      if (allowWriteTools) {
+        server.tool(
+          "update_rows",
         "Updates rows in a sheet, including cell values, formatting, and formulae",
         {
           sheetId: z.string().describe("The ID of the sheet"),
@@ -249,10 +250,14 @@ export function getSheetTools(server: McpServer, api: SmartsheetAPI, allowDelete
           }
         }
       );
-      
-      // Tool: Add Rows
-      server.tool(
-        "add_rows",
+      } else {
+        console.warn("Update rows operations are disabled. Set ALLOW_WRITE_TOOLS=true to enable them.");
+      }
+
+      // Tool: Add Rows (conditionally registered)
+      if (allowWriteTools) {
+        server.tool(
+          "add_rows",
         "Adds new rows to a sheet",
         {
           sheetId: z.string().describe("The ID of the sheet"),
@@ -298,7 +303,10 @@ export function getSheetTools(server: McpServer, api: SmartsheetAPI, allowDelete
           }
         }
       );
-      
+      } else {
+        console.warn("Add rows operations are disabled. Set ALLOW_WRITE_TOOLS=true to enable them.");
+      }
+
       // Tool: Delete Rows (conditionally registered)
       if (allowDeleteTools) {
         server.tool(
@@ -375,9 +383,10 @@ export function getSheetTools(server: McpServer, api: SmartsheetAPI, allowDelete
         }
       );
       
-      // Tool: Copy Sheet
-      server.tool(
-        "copy_sheet",
+      // Tool: Copy Sheet (conditionally registered)
+      if (allowWriteTools) {
+        server.tool(
+          "copy_sheet",
         "Creates a copy of the specified sheet in the same folder",
         {
           sheetId: z.string().describe("The ID of the sheet to copy"),
@@ -422,10 +431,14 @@ export function getSheetTools(server: McpServer, api: SmartsheetAPI, allowDelete
           }
         }
       );
-      
-      // Tool: Create Sheet
-      server.tool(
-        "create_sheet",
+      } else {
+        console.warn("Copy sheet operations are disabled. Set ALLOW_WRITE_TOOLS=true to enable them.");
+      }
+
+      // Tool: Create Sheet (conditionally registered)
+      if (allowWriteTools) {
+        server.tool(
+          "create_sheet",
         "Creates a new sheet",
         {
           name: z.string().describe("Name for the new sheet"),
@@ -465,5 +478,8 @@ export function getSheetTools(server: McpServer, api: SmartsheetAPI, allowDelete
           }
         }
       );
+      } else {
+        console.warn("Create sheet operations are disabled. Set ALLOW_WRITE_TOOLS=true to enable them.");
+      }
 
 }

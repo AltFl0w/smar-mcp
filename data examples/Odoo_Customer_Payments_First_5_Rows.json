@@ -1,0 +1,860 @@
+{
+  "originalSheetId": "xH87mcjCmmc8jvGRWmGX33j2QWvj5mHRW87XGhQ1",
+  "originalSheetName": "Odoo_Customer Payments",
+  "totalRowsInOriginal": 4932,
+  "clonedRows": 5,
+  "columns": [
+    {
+      "id": 944424053591940,
+      "title": "Number",
+      "type": "TEXT_NUMBER",
+      "index": 0
+    },
+    {
+      "id": 5448023680962436,
+      "title": "Payment Date",
+      "type": "DATE",
+      "index": 1
+    },
+    {
+      "id": 4322123774119812,
+      "title": "Payment Amount",
+      "type": "TEXT_NUMBER",
+      "index": 2
+    },
+    {
+      "id": 3196223867277188,
+      "title": "Customer",
+      "type": "TEXT_NUMBER",
+      "index": 3
+    },
+    {
+      "id": 6573923587805060,
+      "title": "Journal",
+      "type": "TEXT_NUMBER",
+      "index": 4
+    },
+    {
+      "id": 8825723401490308,
+      "title": "Payment Method",
+      "type": "TEXT_NUMBER",
+      "index": 5
+    },
+    {
+      "id": 240736611815300,
+      "title": "Status",
+      "type": "TEXT_NUMBER",
+      "index": 6
+    },
+    {
+      "id": 4744336239185796,
+      "title": "Invoice Reference",
+      "type": "TEXT_NUMBER",
+      "index": 7
+    },
+    {
+      "id": 7204146016636804,
+      "title": "Invoice Type",
+      "type": "TEXT_NUMBER",
+      "index": 8
+    },
+    {
+      "id": 2492536425500548,
+      "title": "Customer Tags",
+      "type": "TEXT_NUMBER",
+      "index": 9
+    },
+    {
+      "id": 8644026718441348,
+      "title": "Payment Terms",
+      "type": "TEXT_NUMBER",
+      "index": 10
+    },
+    {
+      "id": 481252393832324,
+      "title": "Project Name",
+      "type": "TEXT_NUMBER",
+      "index": 11
+    },
+    {
+      "id": 6855814695047044,
+      "title": "Salesperson",
+      "type": "TEXT_NUMBER",
+      "index": 12
+    },
+    {
+      "id": 3567363694481284,
+      "title": "Due Date",
+      "type": "DATE",
+      "index": 13
+    },
+    {
+      "id": 3504091070943108,
+      "title": "Payment Week",
+      "type": "TEXT_NUMBER",
+      "index": 14
+    },
+    {
+      "id": 1366636518657924,
+      "title": "Payment Month",
+      "type": "TEXT_NUMBER",
+      "index": 15
+    },
+    {
+      "id": 5870236146028420,
+      "title": "Payment Year",
+      "type": "TEXT_NUMBER",
+      "index": 16
+    },
+    {
+      "id": 3618436332343172,
+      "title": "Invoice Current Month",
+      "type": "TEXT_NUMBER",
+      "index": 17
+    },
+    {
+      "id": 8528816700608388,
+      "title": "AR Category",
+      "type": "TEXT_NUMBER",
+      "index": 18
+    },
+    {
+      "id": 366042375999364,
+      "title": "AR Aging Days",
+      "type": "TEXT_NUMBER",
+      "index": 19
+    },
+    {
+      "id": 8122035959713668,
+      "title": "Invoice Duplicate",
+      "type": "TEXT_NUMBER",
+      "index": 20
+    },
+    {
+      "id": 6972219620806532,
+      "title": "Normalized Payment Terms",
+      "type": "TEXT_NUMBER",
+      "index": 21
+    }
+  ],
+  "rows": [
+    {
+      "id": 7005267144150916,
+      "rowNumber": 1,
+      "cells": [
+        {
+          "columnId": 944424053591940,
+          "columnTitle": "Number",
+          "value": "PBNK2/2025/06005",
+          "displayValue": "PBNK2/2025/06005"
+        },
+        {
+          "columnId": 5448023680962436,
+          "columnTitle": "Payment Date",
+          "value": "2025-12-30"
+        },
+        {
+          "columnId": 4322123774119812,
+          "columnTitle": "Payment Amount",
+          "value": 1372.2,
+          "displayValue": "$1,372.20"
+        },
+        {
+          "columnId": 3196223867277188,
+          "columnTitle": "Customer",
+          "value": "F45 Training - Brooklyn, NY",
+          "displayValue": "F45 Training - Brooklyn, NY"
+        },
+        {
+          "columnId": 6573923587805060,
+          "columnTitle": "Journal",
+          "value": "Checking - Wells Fargo Bank",
+          "displayValue": "Checking - Wells Fargo Bank"
+        },
+        {
+          "columnId": 8825723401490308,
+          "columnTitle": "Payment Method",
+          "value": "Stripe",
+          "displayValue": "Stripe"
+        },
+        {
+          "columnId": 240736611815300,
+          "columnTitle": "Status",
+          "value": "posted",
+          "displayValue": "posted"
+        },
+        {
+          "columnId": 4744336239185796,
+          "columnTitle": "Invoice Reference",
+          "value": "INV/2205/04652",
+          "displayValue": "INV/2205/04652"
+        },
+        {
+          "columnId": 7204146016636804,
+          "columnTitle": "Invoice Type",
+          "value": "Down Payment",
+          "displayValue": "Down Payment"
+        },
+        {
+          "columnId": 2492536425500548,
+          "columnTitle": "Customer Tags",
+          "value": "Franchise",
+          "displayValue": "Franchise"
+        },
+        {
+          "columnId": 8644026718441348,
+          "columnTitle": "Payment Terms",
+          "value": "50% Down, Balance Due Upon Receipt",
+          "displayValue": "50% Down, Balance Due Upon Receipt"
+        },
+        {
+          "columnId": 481252393832324,
+          "columnTitle": "Project Name"
+        },
+        {
+          "columnId": 6855814695047044,
+          "columnTitle": "Salesperson",
+          "value": "Derrick Pesterfield",
+          "displayValue": "Derrick Pesterfield"
+        },
+        {
+          "columnId": 3567363694481284,
+          "columnTitle": "Due Date",
+          "value": "2025-12-31"
+        },
+        {
+          "columnId": 3504091070943108,
+          "columnTitle": "Payment Week",
+          "value": 1,
+          "displayValue": "1",
+          "formula": "=IFERROR(WEEKNUMBER([Payment Date]@row), \"\")"
+        },
+        {
+          "columnId": 1366636518657924,
+          "columnTitle": "Payment Month",
+          "value": 12,
+          "displayValue": "12",
+          "formula": "=MONTH([Payment Date]@row)"
+        },
+        {
+          "columnId": 5870236146028420,
+          "columnTitle": "Payment Year",
+          "value": 2025,
+          "displayValue": "2025",
+          "formula": "=YEAR([Payment Date]@row)"
+        },
+        {
+          "columnId": 3618436332343172,
+          "columnTitle": "Invoice Current Month",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IF(AND(MONTH([Payment Date]@row) = MONTH(TODAY()), YEAR([Payment Date]@row) = YEAR(TODAY())), \"Yes\", \"\")"
+        },
+        {
+          "columnId": 8528816700608388,
+          "columnTitle": "AR Category",
+          "value": "A/R 0-30",
+          "displayValue": "A/R 0-30",
+          "formula": "=IF([AR Aging Days]@row <= 30, \"A/R 0-30\", IF(AND([AR Aging Days]@row >= 31, [AR Aging Days]@row <= 60), \"A/R 31-60\", IF([AR Aging Days]@row >= 61, \"A/R 61+ Collections\", \"\")))"
+        },
+        {
+          "columnId": 366042375999364,
+          "columnTitle": "AR Aging Days",
+          "value": -1,
+          "displayValue": "-1",
+          "formula": "=[Payment Date]@row - [Due Date]@row"
+        },
+        {
+          "columnId": 8122035959713668,
+          "columnTitle": "Invoice Duplicate",
+          "value": 1,
+          "displayValue": "1",
+          "formula": "=COUNTIF(Number:Number, Number@row)"
+        },
+        {
+          "columnId": 6972219620806532,
+          "columnTitle": "Normalized Payment Terms",
+          "value": "Other",
+          "displayValue": "Other",
+          "formula": "=IF(CONTAINS(\"Recurring Payment Plan\", [Payment Terms]@row), \"Recurring\", \"Other\")"
+        }
+      ]
+    },
+    {
+      "id": 1375767609937796,
+      "rowNumber": 2,
+      "cells": [
+        {
+          "columnId": 944424053591940,
+          "columnTitle": "Number",
+          "value": "PBNK2/2025/06004",
+          "displayValue": "PBNK2/2025/06004"
+        },
+        {
+          "columnId": 5448023680962436,
+          "columnTitle": "Payment Date",
+          "value": "2025-12-30"
+        },
+        {
+          "columnId": 4322123774119812,
+          "columnTitle": "Payment Amount",
+          "value": 833,
+          "displayValue": "$833.00"
+        },
+        {
+          "columnId": 3196223867277188,
+          "columnTitle": "Customer",
+          "value": "PV 635 Preston LTD",
+          "displayValue": "PV 635 Preston LTD"
+        },
+        {
+          "columnId": 6573923587805060,
+          "columnTitle": "Journal",
+          "value": "Checking - Wells Fargo Bank",
+          "displayValue": "Checking - Wells Fargo Bank"
+        },
+        {
+          "columnId": 8825723401490308,
+          "columnTitle": "Payment Method",
+          "value": "Stripe",
+          "displayValue": "Stripe"
+        },
+        {
+          "columnId": 240736611815300,
+          "columnTitle": "Status",
+          "value": "posted",
+          "displayValue": "posted"
+        },
+        {
+          "columnId": 4744336239185796,
+          "columnTitle": "Invoice Reference",
+          "value": "INV/2205/04520",
+          "displayValue": "INV/2205/04520"
+        },
+        {
+          "columnId": 7204146016636804,
+          "columnTitle": "Invoice Type",
+          "value": "Regular",
+          "displayValue": "Regular"
+        },
+        {
+          "columnId": 2492536425500548,
+          "columnTitle": "Customer Tags",
+          "value": "Franchise",
+          "displayValue": "Franchise"
+        },
+        {
+          "columnId": 8644026718441348,
+          "columnTitle": "Payment Terms",
+          "value": "50% Down, Balance Net 15",
+          "displayValue": "50% Down, Balance Net 15"
+        },
+        {
+          "columnId": 481252393832324,
+          "columnTitle": "Project Name",
+          "value": "Milkshake Factory - Dallas, TX Exterior",
+          "displayValue": "Milkshake Factory - Dallas, TX Exterior"
+        },
+        {
+          "columnId": 6855814695047044,
+          "columnTitle": "Salesperson",
+          "value": "Derrick Pesterfield",
+          "displayValue": "Derrick Pesterfield"
+        },
+        {
+          "columnId": 3567363694481284,
+          "columnTitle": "Due Date",
+          "value": "2025-12-31"
+        },
+        {
+          "columnId": 3504091070943108,
+          "columnTitle": "Payment Week",
+          "value": 1,
+          "displayValue": "1",
+          "formula": "=IFERROR(WEEKNUMBER([Payment Date]@row), \"\")"
+        },
+        {
+          "columnId": 1366636518657924,
+          "columnTitle": "Payment Month",
+          "value": 12,
+          "displayValue": "12",
+          "formula": "=MONTH([Payment Date]@row)"
+        },
+        {
+          "columnId": 5870236146028420,
+          "columnTitle": "Payment Year",
+          "value": 2025,
+          "displayValue": "2025",
+          "formula": "=YEAR([Payment Date]@row)"
+        },
+        {
+          "columnId": 3618436332343172,
+          "columnTitle": "Invoice Current Month",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IF(AND(MONTH([Payment Date]@row) = MONTH(TODAY()), YEAR([Payment Date]@row) = YEAR(TODAY())), \"Yes\", \"\")"
+        },
+        {
+          "columnId": 8528816700608388,
+          "columnTitle": "AR Category",
+          "value": "A/R 0-30",
+          "displayValue": "A/R 0-30",
+          "formula": "=IF([AR Aging Days]@row <= 30, \"A/R 0-30\", IF(AND([AR Aging Days]@row >= 31, [AR Aging Days]@row <= 60), \"A/R 31-60\", IF([AR Aging Days]@row >= 61, \"A/R 61+ Collections\", \"\")))"
+        },
+        {
+          "columnId": 366042375999364,
+          "columnTitle": "AR Aging Days",
+          "value": -1,
+          "displayValue": "-1",
+          "formula": "=[Payment Date]@row - [Due Date]@row"
+        },
+        {
+          "columnId": 8122035959713668,
+          "columnTitle": "Invoice Duplicate",
+          "value": 1,
+          "displayValue": "1",
+          "formula": "=COUNTIF(Number:Number, Number@row)"
+        },
+        {
+          "columnId": 6972219620806532,
+          "columnTitle": "Normalized Payment Terms",
+          "value": "Other",
+          "displayValue": "Other",
+          "formula": "=IF(CONTAINS(\"Recurring Payment Plan\", [Payment Terms]@row), \"Recurring\", \"Other\")"
+        }
+      ]
+    },
+    {
+      "id": 5879367237308292,
+      "rowNumber": 3,
+      "cells": [
+        {
+          "columnId": 944424053591940,
+          "columnTitle": "Number",
+          "value": "PBNK2/2025/06003",
+          "displayValue": "PBNK2/2025/06003"
+        },
+        {
+          "columnId": 5448023680962436,
+          "columnTitle": "Payment Date",
+          "value": "2025-12-30"
+        },
+        {
+          "columnId": 4322123774119812,
+          "columnTitle": "Payment Amount",
+          "value": 1706.08,
+          "displayValue": "$1,706.08"
+        },
+        {
+          "columnId": 3196223867277188,
+          "columnTitle": "Customer",
+          "value": "FS8 - Canonsburg, PA",
+          "displayValue": "FS8 - Canonsburg, PA"
+        },
+        {
+          "columnId": 6573923587805060,
+          "columnTitle": "Journal",
+          "value": "Checking - Wells Fargo Bank",
+          "displayValue": "Checking - Wells Fargo Bank"
+        },
+        {
+          "columnId": 8825723401490308,
+          "columnTitle": "Payment Method",
+          "value": "Stripe",
+          "displayValue": "Stripe"
+        },
+        {
+          "columnId": 240736611815300,
+          "columnTitle": "Status",
+          "value": "posted",
+          "displayValue": "posted"
+        },
+        {
+          "columnId": 4744336239185796,
+          "columnTitle": "Invoice Reference",
+          "value": "INV/2205/04653",
+          "displayValue": "INV/2205/04653"
+        },
+        {
+          "columnId": 7204146016636804,
+          "columnTitle": "Invoice Type",
+          "value": "Down Payment",
+          "displayValue": "Down Payment"
+        },
+        {
+          "columnId": 2492536425500548,
+          "columnTitle": "Customer Tags",
+          "value": "Franchise",
+          "displayValue": "Franchise"
+        },
+        {
+          "columnId": 8644026718441348,
+          "columnTitle": "Payment Terms",
+          "value": "50% Down, Balance Net 15",
+          "displayValue": "50% Down, Balance Net 15"
+        },
+        {
+          "columnId": 481252393832324,
+          "columnTitle": "Project Name",
+          "value": "FS8 - Canonsburg, PA Interior",
+          "displayValue": "FS8 - Canonsburg, PA Interior"
+        },
+        {
+          "columnId": 6855814695047044,
+          "columnTitle": "Salesperson",
+          "value": "Derrick Pesterfield",
+          "displayValue": "Derrick Pesterfield"
+        },
+        {
+          "columnId": 3567363694481284,
+          "columnTitle": "Due Date",
+          "value": "2026-01-14"
+        },
+        {
+          "columnId": 3504091070943108,
+          "columnTitle": "Payment Week",
+          "value": 1,
+          "displayValue": "1",
+          "formula": "=IFERROR(WEEKNUMBER([Payment Date]@row), \"\")"
+        },
+        {
+          "columnId": 1366636518657924,
+          "columnTitle": "Payment Month",
+          "value": 12,
+          "displayValue": "12",
+          "formula": "=MONTH([Payment Date]@row)"
+        },
+        {
+          "columnId": 5870236146028420,
+          "columnTitle": "Payment Year",
+          "value": 2025,
+          "displayValue": "2025",
+          "formula": "=YEAR([Payment Date]@row)"
+        },
+        {
+          "columnId": 3618436332343172,
+          "columnTitle": "Invoice Current Month",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IF(AND(MONTH([Payment Date]@row) = MONTH(TODAY()), YEAR([Payment Date]@row) = YEAR(TODAY())), \"Yes\", \"\")"
+        },
+        {
+          "columnId": 8528816700608388,
+          "columnTitle": "AR Category",
+          "value": "A/R 0-30",
+          "displayValue": "A/R 0-30",
+          "formula": "=IF([AR Aging Days]@row <= 30, \"A/R 0-30\", IF(AND([AR Aging Days]@row >= 31, [AR Aging Days]@row <= 60), \"A/R 31-60\", IF([AR Aging Days]@row >= 61, \"A/R 61+ Collections\", \"\")))"
+        },
+        {
+          "columnId": 366042375999364,
+          "columnTitle": "AR Aging Days",
+          "value": -15,
+          "displayValue": "-15",
+          "formula": "=[Payment Date]@row - [Due Date]@row"
+        },
+        {
+          "columnId": 8122035959713668,
+          "columnTitle": "Invoice Duplicate",
+          "value": 1,
+          "displayValue": "1",
+          "formula": "=COUNTIF(Number:Number, Number@row)"
+        },
+        {
+          "columnId": 6972219620806532,
+          "columnTitle": "Normalized Payment Terms",
+          "value": "Other",
+          "displayValue": "Other",
+          "formula": "=IF(CONTAINS(\"Recurring Payment Plan\", [Payment Terms]@row), \"Recurring\", \"Other\")"
+        }
+      ]
+    },
+    {
+      "id": 3627567423623044,
+      "rowNumber": 4,
+      "cells": [
+        {
+          "columnId": 944424053591940,
+          "columnTitle": "Number",
+          "value": "PBNK2/2025/06002",
+          "displayValue": "PBNK2/2025/06002"
+        },
+        {
+          "columnId": 5448023680962436,
+          "columnTitle": "Payment Date",
+          "value": "2025-12-30"
+        },
+        {
+          "columnId": 4322123774119812,
+          "columnTitle": "Payment Amount",
+          "value": 4980.16,
+          "displayValue": "$4,980.16"
+        },
+        {
+          "columnId": 3196223867277188,
+          "columnTitle": "Customer",
+          "value": "BODYBAR - Denver, CO",
+          "displayValue": "BODYBAR - Denver, CO"
+        },
+        {
+          "columnId": 6573923587805060,
+          "columnTitle": "Journal",
+          "value": "Checking - Wells Fargo Bank",
+          "displayValue": "Checking - Wells Fargo Bank"
+        },
+        {
+          "columnId": 8825723401490308,
+          "columnTitle": "Payment Method",
+          "value": "Stripe",
+          "displayValue": "Stripe"
+        },
+        {
+          "columnId": 240736611815300,
+          "columnTitle": "Status",
+          "value": "posted",
+          "displayValue": "posted"
+        },
+        {
+          "columnId": 4744336239185796,
+          "columnTitle": "Invoice Reference",
+          "value": "INV/2205/04654",
+          "displayValue": "INV/2205/04654"
+        },
+        {
+          "columnId": 7204146016636804,
+          "columnTitle": "Invoice Type",
+          "value": "Down Payment",
+          "displayValue": "Down Payment"
+        },
+        {
+          "columnId": 2492536425500548,
+          "columnTitle": "Customer Tags",
+          "value": "Franchise",
+          "displayValue": "Franchise"
+        },
+        {
+          "columnId": 8644026718441348,
+          "columnTitle": "Payment Terms",
+          "value": "50% Down, Balance Net 15",
+          "displayValue": "50% Down, Balance Net 15"
+        },
+        {
+          "columnId": 481252393832324,
+          "columnTitle": "Project Name",
+          "value": "BODYBAR - Denver, CO Exterior",
+          "displayValue": "BODYBAR - Denver, CO Exterior"
+        },
+        {
+          "columnId": 6855814695047044,
+          "columnTitle": "Salesperson",
+          "value": "Derrick Pesterfield",
+          "displayValue": "Derrick Pesterfield"
+        },
+        {
+          "columnId": 3567363694481284,
+          "columnTitle": "Due Date",
+          "value": "2026-01-14"
+        },
+        {
+          "columnId": 3504091070943108,
+          "columnTitle": "Payment Week",
+          "value": 1,
+          "displayValue": "1",
+          "formula": "=IFERROR(WEEKNUMBER([Payment Date]@row), \"\")"
+        },
+        {
+          "columnId": 1366636518657924,
+          "columnTitle": "Payment Month",
+          "value": 12,
+          "displayValue": "12",
+          "formula": "=MONTH([Payment Date]@row)"
+        },
+        {
+          "columnId": 5870236146028420,
+          "columnTitle": "Payment Year",
+          "value": 2025,
+          "displayValue": "2025",
+          "formula": "=YEAR([Payment Date]@row)"
+        },
+        {
+          "columnId": 3618436332343172,
+          "columnTitle": "Invoice Current Month",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IF(AND(MONTH([Payment Date]@row) = MONTH(TODAY()), YEAR([Payment Date]@row) = YEAR(TODAY())), \"Yes\", \"\")"
+        },
+        {
+          "columnId": 8528816700608388,
+          "columnTitle": "AR Category",
+          "value": "A/R 0-30",
+          "displayValue": "A/R 0-30",
+          "formula": "=IF([AR Aging Days]@row <= 30, \"A/R 0-30\", IF(AND([AR Aging Days]@row >= 31, [AR Aging Days]@row <= 60), \"A/R 31-60\", IF([AR Aging Days]@row >= 61, \"A/R 61+ Collections\", \"\")))"
+        },
+        {
+          "columnId": 366042375999364,
+          "columnTitle": "AR Aging Days",
+          "value": -15,
+          "displayValue": "-15",
+          "formula": "=[Payment Date]@row - [Due Date]@row"
+        },
+        {
+          "columnId": 8122035959713668,
+          "columnTitle": "Invoice Duplicate",
+          "value": 1,
+          "displayValue": "1",
+          "formula": "=COUNTIF(Number:Number, Number@row)"
+        },
+        {
+          "columnId": 6972219620806532,
+          "columnTitle": "Normalized Payment Terms",
+          "value": "Other",
+          "displayValue": "Other",
+          "formula": "=IF(CONTAINS(\"Recurring Payment Plan\", [Payment Terms]@row), \"Recurring\", \"Other\")"
+        }
+      ]
+    },
+    {
+      "id": 8131167050993540,
+      "rowNumber": 5,
+      "cells": [
+        {
+          "columnId": 944424053591940,
+          "columnTitle": "Number",
+          "value": "PBNK2/2025/06001",
+          "displayValue": "PBNK2/2025/06001"
+        },
+        {
+          "columnId": 5448023680962436,
+          "columnTitle": "Payment Date",
+          "value": "2025-12-30"
+        },
+        {
+          "columnId": 4322123774119812,
+          "columnTitle": "Payment Amount",
+          "value": 2132.91,
+          "displayValue": "$2,132.91"
+        },
+        {
+          "columnId": 3196223867277188,
+          "columnTitle": "Customer",
+          "value": "BODYBAR - Denver, CO",
+          "displayValue": "BODYBAR - Denver, CO"
+        },
+        {
+          "columnId": 6573923587805060,
+          "columnTitle": "Journal",
+          "value": "Checking - Wells Fargo Bank",
+          "displayValue": "Checking - Wells Fargo Bank"
+        },
+        {
+          "columnId": 8825723401490308,
+          "columnTitle": "Payment Method",
+          "value": "Stripe",
+          "displayValue": "Stripe"
+        },
+        {
+          "columnId": 240736611815300,
+          "columnTitle": "Status",
+          "value": "posted",
+          "displayValue": "posted"
+        },
+        {
+          "columnId": 4744336239185796,
+          "columnTitle": "Invoice Reference",
+          "value": "INV/2205/04655",
+          "displayValue": "INV/2205/04655"
+        },
+        {
+          "columnId": 7204146016636804,
+          "columnTitle": "Invoice Type",
+          "value": "Down Payment",
+          "displayValue": "Down Payment"
+        },
+        {
+          "columnId": 2492536425500548,
+          "columnTitle": "Customer Tags",
+          "value": "Franchise",
+          "displayValue": "Franchise"
+        },
+        {
+          "columnId": 8644026718441348,
+          "columnTitle": "Payment Terms",
+          "value": "50% Down, Balance Net 15",
+          "displayValue": "50% Down, Balance Net 15"
+        },
+        {
+          "columnId": 481252393832324,
+          "columnTitle": "Project Name",
+          "value": "BODYBAR - Denver, CO Interior",
+          "displayValue": "BODYBAR - Denver, CO Interior"
+        },
+        {
+          "columnId": 6855814695047044,
+          "columnTitle": "Salesperson",
+          "value": "Derrick Pesterfield",
+          "displayValue": "Derrick Pesterfield"
+        },
+        {
+          "columnId": 3567363694481284,
+          "columnTitle": "Due Date",
+          "value": "2026-01-14"
+        },
+        {
+          "columnId": 3504091070943108,
+          "columnTitle": "Payment Week",
+          "value": 1,
+          "displayValue": "1",
+          "formula": "=IFERROR(WEEKNUMBER([Payment Date]@row), \"\")"
+        },
+        {
+          "columnId": 1366636518657924,
+          "columnTitle": "Payment Month",
+          "value": 12,
+          "displayValue": "12",
+          "formula": "=MONTH([Payment Date]@row)"
+        },
+        {
+          "columnId": 5870236146028420,
+          "columnTitle": "Payment Year",
+          "value": 2025,
+          "displayValue": "2025",
+          "formula": "=YEAR([Payment Date]@row)"
+        },
+        {
+          "columnId": 3618436332343172,
+          "columnTitle": "Invoice Current Month",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IF(AND(MONTH([Payment Date]@row) = MONTH(TODAY()), YEAR([Payment Date]@row) = YEAR(TODAY())), \"Yes\", \"\")"
+        },
+        {
+          "columnId": 8528816700608388,
+          "columnTitle": "AR Category",
+          "value": "A/R 0-30",
+          "displayValue": "A/R 0-30",
+          "formula": "=IF([AR Aging Days]@row <= 30, \"A/R 0-30\", IF(AND([AR Aging Days]@row >= 31, [AR Aging Days]@row <= 60), \"A/R 31-60\", IF([AR Aging Days]@row >= 61, \"A/R 61+ Collections\", \"\")))"
+        },
+        {
+          "columnId": 366042375999364,
+          "columnTitle": "AR Aging Days",
+          "value": -15,
+          "displayValue": "-15",
+          "formula": "=[Payment Date]@row - [Due Date]@row"
+        },
+        {
+          "columnId": 8122035959713668,
+          "columnTitle": "Invoice Duplicate",
+          "value": 1,
+          "displayValue": "1",
+          "formula": "=COUNTIF(Number:Number, Number@row)"
+        },
+        {
+          "columnId": 6972219620806532,
+          "columnTitle": "Normalized Payment Terms",
+          "value": "Other",
+          "displayValue": "Other",
+          "formula": "=IF(CONTAINS(\"Recurring Payment Plan\", [Payment Terms]@row), \"Recurring\", \"Other\")"
+        }
+      ]
+    }
+  ]
+}

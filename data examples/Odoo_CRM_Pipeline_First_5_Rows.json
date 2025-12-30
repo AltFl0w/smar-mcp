@@ -1,0 +1,784 @@
+{
+  "originalSheetId": "7f8cw4w6w6gjQXh88VJCfG9QFqX9ppvRgR6Rv921",
+  "originalSheetName": "Odoo_CRM Pipeline (Total)",
+  "totalRowsInOriginal": 765,
+  "clonedRows": 5,
+  "columns": [
+    {
+      "id": 638950905171844,
+      "title": "Opportunity",
+      "type": "TEXT_NUMBER",
+      "index": 0
+    },
+    {
+      "id": 7957300299648900,
+      "title": "ORDER",
+      "type": "TEXT_NUMBER",
+      "index": 1
+    },
+    {
+      "id": 5142550532542340,
+      "title": "Account Company",
+      "type": "TEXT_NUMBER",
+      "index": 2
+    },
+    {
+      "id": 2890750718857092,
+      "title": "Quote/SO $",
+      "type": "TEXT_NUMBER",
+      "index": 3
+    },
+    {
+      "id": 7394350346227588,
+      "title": "Amount Paid",
+      "type": "TEXT_NUMBER",
+      "index": 4
+    },
+    {
+      "id": 1764850812014468,
+      "title": "Amount Due",
+      "type": "TEXT_NUMBER",
+      "index": 5
+    },
+    {
+      "id": 6268450439384964,
+      "title": "Customer",
+      "type": "TEXT_NUMBER",
+      "index": 6
+    },
+    {
+      "id": 4016650625699716,
+      "title": "Quote Date",
+      "type": "DATE",
+      "index": 7
+    },
+    {
+      "id": 8520250253070212,
+      "title": "Quotation Sent",
+      "type": "CHECKBOX",
+      "index": 8
+    },
+    {
+      "id": 357475928461188,
+      "title": "Order Date",
+      "type": "DATE",
+      "index": 9
+    },
+    {
+      "id": 4861075555831684,
+      "title": "Signed On",
+      "type": "DATE",
+      "index": 10
+    },
+    {
+      "id": 2609275742146436,
+      "title": "Salesperson",
+      "type": "PICKLIST",
+      "index": 11
+    },
+    {
+      "id": 7112875369516932,
+      "title": "So Reference/Status",
+      "type": "PICKLIST",
+      "index": 12
+    },
+    {
+      "id": 1483375835303812,
+      "title": "Stage",
+      "type": "TEXT_NUMBER",
+      "index": 13
+    },
+    {
+      "id": 5986975462674308,
+      "title": "Expected Closing",
+      "type": "DATE",
+      "index": 14
+    },
+    {
+      "id": 3735175648989060,
+      "title": "Estimated Opening Date",
+      "type": "DATE",
+      "index": 15
+    },
+    {
+      "id": 8238775276359556,
+      "title": "Expected Revenue",
+      "type": "TEXT_NUMBER",
+      "index": 16
+    },
+    {
+      "id": 920425881882500,
+      "title": "Customer/Tags",
+      "type": "PICKLIST",
+      "index": 17
+    },
+    {
+      "id": 831512023617412,
+      "title": "Closed Date",
+      "type": "DATE",
+      "index": 18
+    },
+    {
+      "id": 7675825322938244,
+      "title": "Pipeline Revenue",
+      "type": "TEXT_NUMBER",
+      "index": 19
+    },
+    {
+      "id": 2046325788725124,
+      "title": "Pipeline Stage",
+      "type": "TEXT_NUMBER",
+      "index": 20
+    },
+    {
+      "id": 4298125602410372,
+      "title": "Projected Invoice Month",
+      "type": "TEXT_NUMBER",
+      "index": 21
+    },
+    {
+      "id": 8801725229780868,
+      "title": "Projected Invoice Year",
+      "type": "TEXT_NUMBER",
+      "index": 22
+    }
+  ],
+  "rows": [
+    {
+      "id": 7753043995987844,
+      "rowNumber": 1,
+      "cells": [
+        {
+          "columnId": 638950905171844,
+          "columnTitle": "Opportunity",
+          "value": "101 Smoke Shop - Freeport, FL - Exterior",
+          "displayValue": "101 Smoke Shop - Freeport, FL - Exterior"
+        },
+        {
+          "columnId": 7957300299648900,
+          "columnTitle": "ORDER"
+        },
+        {
+          "columnId": 5142550532542340,
+          "columnTitle": "Account Company",
+          "value": "101 Smoke Shop",
+          "displayValue": "101 Smoke Shop"
+        },
+        {
+          "columnId": 2890750718857092,
+          "columnTitle": "Quote/SO $"
+        },
+        {
+          "columnId": 7394350346227588,
+          "columnTitle": "Amount Paid"
+        },
+        {
+          "columnId": 1764850812014468,
+          "columnTitle": "Amount Due"
+        },
+        {
+          "columnId": 6268450439384964,
+          "columnTitle": "Customer",
+          "value": "101 Smoke Shop - Freeport, FL",
+          "displayValue": "101 Smoke Shop - Freeport, FL"
+        },
+        {
+          "columnId": 4016650625699716,
+          "columnTitle": "Quote Date"
+        },
+        {
+          "columnId": 8520250253070212,
+          "columnTitle": "Quotation Sent"
+        },
+        {
+          "columnId": 357475928461188,
+          "columnTitle": "Order Date"
+        },
+        {
+          "columnId": 4861075555831684,
+          "columnTitle": "Signed On"
+        },
+        {
+          "columnId": 2609275742146436,
+          "columnTitle": "Salesperson",
+          "value": "Derrick Pesterfield",
+          "displayValue": "Derrick Pesterfield"
+        },
+        {
+          "columnId": 7112875369516932,
+          "columnTitle": "So Reference/Status"
+        },
+        {
+          "columnId": 1483375835303812,
+          "columnTitle": "Stage",
+          "value": "V.1 Design",
+          "displayValue": "V.1 Design"
+        },
+        {
+          "columnId": 5986975462674308,
+          "columnTitle": "Expected Closing",
+          "value": "2026-01-01",
+          "formula": "=[Estimated Opening Date]@row - 56"
+        },
+        {
+          "columnId": 3735175648989060,
+          "columnTitle": "Estimated Opening Date",
+          "value": "2026-02-26"
+        },
+        {
+          "columnId": 8238775276359556,
+          "columnTitle": "Expected Revenue",
+          "value": 3000,
+          "displayValue": "$3,000.00"
+        },
+        {
+          "columnId": 920425881882500,
+          "columnTitle": "Customer/Tags",
+          "value": "Franchise",
+          "displayValue": "Franchise"
+        },
+        {
+          "columnId": 831512023617412,
+          "columnTitle": "Closed Date"
+        },
+        {
+          "columnId": 7675825322938244,
+          "columnTitle": "Pipeline Revenue",
+          "value": 3000,
+          "displayValue": "$3,000.00",
+          "formula": "=IF(ISBLANK([Quote/SO $]@row), [Expected Revenue]@row, [Quote/SO $]@row)"
+        },
+        {
+          "columnId": 2046325788725124,
+          "columnTitle": "Pipeline Stage",
+          "value": "04. V.1 Design",
+          "displayValue": "04. V.1 Design",
+          "formula": "=IF(Stage@row = \"Intake Results Received\", \"01. Intake Results Received\", IF(Stage@row = \"Lead\", \"02. Lead\", IF(Stage@row = \"Compliance\", \"03. Compliance\", IF(Stage@row = \"V.1 Design\", \"04. V.1 Design\", IF(Stage@row = \"Approvals\", \"05. Approvals\", IF(Stage@row = \"Quoting\", \"06. Quoting\", IF(Stage@row = \"Quote with Customer\", \"07. Quote with Customer\", IF(Stage@row = \"On Hold\", \"08. On Hold\", IF(Stage@row = \"Progressing\", \"09. Progressing\", IF(Stage@row = \"Approved/Waiting for Deposit\", \"10. Approved/Waiting for Deposit\", \"\"))))))))))"
+        },
+        {
+          "columnId": 4298125602410372,
+          "columnTitle": "Projected Invoice Month",
+          "value": 2,
+          "displayValue": "2",
+          "formula": "=IFERROR(MONTH([Estimated Opening Date]@row), \"\")"
+        },
+        {
+          "columnId": 8801725229780868,
+          "columnTitle": "Projected Invoice Year",
+          "value": 2026,
+          "displayValue": "2026",
+          "formula": "=IFERROR(YEAR([Estimated Opening Date]@row), \"\")"
+        }
+      ]
+    },
+    {
+      "id": 2915192833773444,
+      "rowNumber": 2,
+      "cells": [
+        {
+          "columnId": 638950905171844,
+          "columnTitle": "Opportunity",
+          "value": "4 Ever Young -  Bethesda, MD",
+          "displayValue": "4 Ever Young -  Bethesda, MD"
+        },
+        {
+          "columnId": 7957300299648900,
+          "columnTitle": "ORDER"
+        },
+        {
+          "columnId": 5142550532542340,
+          "columnTitle": "Account Company",
+          "value": "4 Ever Young",
+          "displayValue": "4 Ever Young"
+        },
+        {
+          "columnId": 2890750718857092,
+          "columnTitle": "Quote/SO $"
+        },
+        {
+          "columnId": 7394350346227588,
+          "columnTitle": "Amount Paid"
+        },
+        {
+          "columnId": 1764850812014468,
+          "columnTitle": "Amount Due"
+        },
+        {
+          "columnId": 6268450439384964,
+          "columnTitle": "Customer",
+          "value": "4 Ever Young -  Bethesda, MD",
+          "displayValue": "4 Ever Young -  Bethesda, MD"
+        },
+        {
+          "columnId": 4016650625699716,
+          "columnTitle": "Quote Date"
+        },
+        {
+          "columnId": 8520250253070212,
+          "columnTitle": "Quotation Sent"
+        },
+        {
+          "columnId": 357475928461188,
+          "columnTitle": "Order Date"
+        },
+        {
+          "columnId": 4861075555831684,
+          "columnTitle": "Signed On"
+        },
+        {
+          "columnId": 2609275742146436,
+          "columnTitle": "Salesperson",
+          "value": "Derrick Pesterfield",
+          "displayValue": "Derrick Pesterfield"
+        },
+        {
+          "columnId": 7112875369516932,
+          "columnTitle": "So Reference/Status"
+        },
+        {
+          "columnId": 1483375835303812,
+          "columnTitle": "Stage",
+          "value": "Approvals",
+          "displayValue": "Approvals"
+        },
+        {
+          "columnId": 5986975462674308,
+          "columnTitle": "Expected Closing",
+          "value": "2026-01-26",
+          "formula": "=[Estimated Opening Date]@row - 56"
+        },
+        {
+          "columnId": 3735175648989060,
+          "columnTitle": "Estimated Opening Date",
+          "value": "2026-03-23"
+        },
+        {
+          "columnId": 8238775276359556,
+          "columnTitle": "Expected Revenue",
+          "value": 2000,
+          "displayValue": "$2,000.00"
+        },
+        {
+          "columnId": 920425881882500,
+          "columnTitle": "Customer/Tags",
+          "value": "Franchise",
+          "displayValue": "Franchise"
+        },
+        {
+          "columnId": 831512023617412,
+          "columnTitle": "Closed Date"
+        },
+        {
+          "columnId": 7675825322938244,
+          "columnTitle": "Pipeline Revenue",
+          "value": 2000,
+          "displayValue": "$2,000.00",
+          "formula": "=IF(ISBLANK([Quote/SO $]@row), [Expected Revenue]@row, [Quote/SO $]@row)"
+        },
+        {
+          "columnId": 2046325788725124,
+          "columnTitle": "Pipeline Stage",
+          "value": "05. Approvals",
+          "displayValue": "05. Approvals",
+          "formula": "=IF(Stage@row = \"Intake Results Received\", \"01. Intake Results Received\", IF(Stage@row = \"Lead\", \"02. Lead\", IF(Stage@row = \"Compliance\", \"03. Compliance\", IF(Stage@row = \"V.1 Design\", \"04. V.1 Design\", IF(Stage@row = \"Approvals\", \"05. Approvals\", IF(Stage@row = \"Quoting\", \"06. Quoting\", IF(Stage@row = \"Quote with Customer\", \"07. Quote with Customer\", IF(Stage@row = \"On Hold\", \"08. On Hold\", IF(Stage@row = \"Progressing\", \"09. Progressing\", IF(Stage@row = \"Approved/Waiting for Deposit\", \"10. Approved/Waiting for Deposit\", \"\"))))))))))"
+        },
+        {
+          "columnId": 4298125602410372,
+          "columnTitle": "Projected Invoice Month",
+          "value": 3,
+          "displayValue": "3",
+          "formula": "=IFERROR(MONTH([Estimated Opening Date]@row), \"\")"
+        },
+        {
+          "columnId": 8801725229780868,
+          "columnTitle": "Projected Invoice Year",
+          "value": 2026,
+          "displayValue": "2026",
+          "formula": "=IFERROR(YEAR([Estimated Opening Date]@row), \"\")"
+        }
+      ]
+    },
+    {
+      "id": 5853087903190916,
+      "rowNumber": 3,
+      "cells": [
+        {
+          "columnId": 638950905171844,
+          "columnTitle": "Opportunity",
+          "value": "Back Nine Golf - Brownsville, TX",
+          "displayValue": "Back Nine Golf - Brownsville, TX"
+        },
+        {
+          "columnId": 7957300299648900,
+          "columnTitle": "ORDER"
+        },
+        {
+          "columnId": 5142550532542340,
+          "columnTitle": "Account Company",
+          "value": "Back Nine Golf",
+          "displayValue": "Back Nine Golf"
+        },
+        {
+          "columnId": 2890750718857092,
+          "columnTitle": "Quote/SO $"
+        },
+        {
+          "columnId": 7394350346227588,
+          "columnTitle": "Amount Paid"
+        },
+        {
+          "columnId": 1764850812014468,
+          "columnTitle": "Amount Due"
+        },
+        {
+          "columnId": 6268450439384964,
+          "columnTitle": "Customer",
+          "value": "Back Nine Golf - Brownsville, Tx",
+          "displayValue": "Back Nine Golf - Brownsville, Tx"
+        },
+        {
+          "columnId": 4016650625699716,
+          "columnTitle": "Quote Date"
+        },
+        {
+          "columnId": 8520250253070212,
+          "columnTitle": "Quotation Sent"
+        },
+        {
+          "columnId": 357475928461188,
+          "columnTitle": "Order Date"
+        },
+        {
+          "columnId": 4861075555831684,
+          "columnTitle": "Signed On"
+        },
+        {
+          "columnId": 2609275742146436,
+          "columnTitle": "Salesperson",
+          "value": "Scott DeLuca",
+          "displayValue": "Scott DeLuca"
+        },
+        {
+          "columnId": 7112875369516932,
+          "columnTitle": "So Reference/Status"
+        },
+        {
+          "columnId": 1483375835303812,
+          "columnTitle": "Stage",
+          "value": "V.1 Design",
+          "displayValue": "V.1 Design"
+        },
+        {
+          "columnId": 5986975462674308,
+          "columnTitle": "Expected Closing",
+          "value": "2026-02-11",
+          "formula": "=[Estimated Opening Date]@row - 56"
+        },
+        {
+          "columnId": 3735175648989060,
+          "columnTitle": "Estimated Opening Date",
+          "value": "2026-04-08"
+        },
+        {
+          "columnId": 8238775276359556,
+          "columnTitle": "Expected Revenue",
+          "value": 4000,
+          "displayValue": "$4,000.00"
+        },
+        {
+          "columnId": 920425881882500,
+          "columnTitle": "Customer/Tags",
+          "value": "Franchise",
+          "displayValue": "Franchise"
+        },
+        {
+          "columnId": 831512023617412,
+          "columnTitle": "Closed Date"
+        },
+        {
+          "columnId": 7675825322938244,
+          "columnTitle": "Pipeline Revenue",
+          "value": 4000,
+          "displayValue": "$4,000.00",
+          "formula": "=IF(ISBLANK([Quote/SO $]@row), [Expected Revenue]@row, [Quote/SO $]@row)"
+        },
+        {
+          "columnId": 2046325788725124,
+          "columnTitle": "Pipeline Stage",
+          "value": "04. V.1 Design",
+          "displayValue": "04. V.1 Design",
+          "formula": "=IF(Stage@row = \"Intake Results Received\", \"01. Intake Results Received\", IF(Stage@row = \"Lead\", \"02. Lead\", IF(Stage@row = \"Compliance\", \"03. Compliance\", IF(Stage@row = \"V.1 Design\", \"04. V.1 Design\", IF(Stage@row = \"Approvals\", \"05. Approvals\", IF(Stage@row = \"Quoting\", \"06. Quoting\", IF(Stage@row = \"Quote with Customer\", \"07. Quote with Customer\", IF(Stage@row = \"On Hold\", \"08. On Hold\", IF(Stage@row = \"Progressing\", \"09. Progressing\", IF(Stage@row = \"Approved/Waiting for Deposit\", \"10. Approved/Waiting for Deposit\", \"\"))))))))))"
+        },
+        {
+          "columnId": 4298125602410372,
+          "columnTitle": "Projected Invoice Month",
+          "value": 4,
+          "displayValue": "4",
+          "formula": "=IFERROR(MONTH([Estimated Opening Date]@row), \"\")"
+        },
+        {
+          "columnId": 8801725229780868,
+          "columnTitle": "Projected Invoice Year",
+          "value": 2026,
+          "displayValue": "2026",
+          "formula": "=IFERROR(YEAR([Estimated Opening Date]@row), \"\")"
+        }
+      ]
+    },
+    {
+      "id": 4586450507992964,
+      "rowNumber": 4,
+      "cells": [
+        {
+          "columnId": 638950905171844,
+          "columnTitle": "Opportunity",
+          "value": "Back Nine Golf - Interior",
+          "displayValue": "Back Nine Golf - Interior"
+        },
+        {
+          "columnId": 7957300299648900,
+          "columnTitle": "ORDER"
+        },
+        {
+          "columnId": 5142550532542340,
+          "columnTitle": "Account Company",
+          "value": "Back Nine Golf",
+          "displayValue": "Back Nine Golf"
+        },
+        {
+          "columnId": 2890750718857092,
+          "columnTitle": "Quote/SO $"
+        },
+        {
+          "columnId": 7394350346227588,
+          "columnTitle": "Amount Paid"
+        },
+        {
+          "columnId": 1764850812014468,
+          "columnTitle": "Amount Due"
+        },
+        {
+          "columnId": 6268450439384964,
+          "columnTitle": "Customer",
+          "value": "Back Nine Golf",
+          "displayValue": "Back Nine Golf"
+        },
+        {
+          "columnId": 4016650625699716,
+          "columnTitle": "Quote Date"
+        },
+        {
+          "columnId": 8520250253070212,
+          "columnTitle": "Quotation Sent"
+        },
+        {
+          "columnId": 357475928461188,
+          "columnTitle": "Order Date"
+        },
+        {
+          "columnId": 4861075555831684,
+          "columnTitle": "Signed On"
+        },
+        {
+          "columnId": 2609275742146436,
+          "columnTitle": "Salesperson",
+          "value": "Scott DeLuca",
+          "displayValue": "Scott DeLuca"
+        },
+        {
+          "columnId": 7112875369516932,
+          "columnTitle": "So Reference/Status"
+        },
+        {
+          "columnId": 1483375835303812,
+          "columnTitle": "Stage",
+          "value": "Intake Results Received",
+          "displayValue": "Intake Results Received"
+        },
+        {
+          "columnId": 5986975462674308,
+          "columnTitle": "Expected Closing",
+          "formula": "=[Estimated Opening Date]@row - 56"
+        },
+        {
+          "columnId": 3735175648989060,
+          "columnTitle": "Estimated Opening Date"
+        },
+        {
+          "columnId": 8238775276359556,
+          "columnTitle": "Expected Revenue",
+          "value": 1000,
+          "displayValue": "$1,000.00"
+        },
+        {
+          "columnId": 920425881882500,
+          "columnTitle": "Customer/Tags",
+          "value": "Franchise",
+          "displayValue": "Franchise"
+        },
+        {
+          "columnId": 831512023617412,
+          "columnTitle": "Closed Date"
+        },
+        {
+          "columnId": 7675825322938244,
+          "columnTitle": "Pipeline Revenue",
+          "value": 1000,
+          "displayValue": "$1,000.00",
+          "formula": "=IF(ISBLANK([Quote/SO $]@row), [Expected Revenue]@row, [Quote/SO $]@row)"
+        },
+        {
+          "columnId": 2046325788725124,
+          "columnTitle": "Pipeline Stage",
+          "value": "01. Intake Results Received",
+          "displayValue": "01. Intake Results Received",
+          "formula": "=IF(Stage@row = \"Intake Results Received\", \"01. Intake Results Received\", IF(Stage@row = \"Lead\", \"02. Lead\", IF(Stage@row = \"Compliance\", \"03. Compliance\", IF(Stage@row = \"V.1 Design\", \"04. V.1 Design\", IF(Stage@row = \"Approvals\", \"05. Approvals\", IF(Stage@row = \"Quoting\", \"06. Quoting\", IF(Stage@row = \"Quote with Customer\", \"07. Quote with Customer\", IF(Stage@row = \"On Hold\", \"08. On Hold\", IF(Stage@row = \"Progressing\", \"09. Progressing\", IF(Stage@row = \"Approved/Waiting for Deposit\", \"10. Approved/Waiting for Deposit\", \"\"))))))))))"
+        },
+        {
+          "columnId": 4298125602410372,
+          "columnTitle": "Projected Invoice Month",
+          "formula": "=IFERROR(MONTH([Estimated Opening Date]@row), \"\")"
+        },
+        {
+          "columnId": 8801725229780868,
+          "columnTitle": "Projected Invoice Year",
+          "formula": "=IFERROR(YEAR([Estimated Opening Date]@row), \"\")"
+        }
+      ]
+    },
+    {
+      "id": 5131808275369860,
+      "rowNumber": 5,
+      "cells": [
+        {
+          "columnId": 638950905171844,
+          "columnTitle": "Opportunity",
+          "value": "Barre3 - Arlington, VA",
+          "displayValue": "Barre3 - Arlington, VA"
+        },
+        {
+          "columnId": 7957300299648900,
+          "columnTitle": "ORDER",
+          "value": "SO44606",
+          "displayValue": "SO44606"
+        },
+        {
+          "columnId": 5142550532542340,
+          "columnTitle": "Account Company",
+          "value": "Barre3",
+          "displayValue": "Barre3"
+        },
+        {
+          "columnId": 2890750718857092,
+          "columnTitle": "Quote/SO $",
+          "value": 554,
+          "displayValue": "$554.00"
+        },
+        {
+          "columnId": 7394350346227588,
+          "columnTitle": "Amount Paid",
+          "value": 0,
+          "displayValue": "$0.00"
+        },
+        {
+          "columnId": 1764850812014468,
+          "columnTitle": "Amount Due",
+          "value": 554,
+          "displayValue": "$554.00"
+        },
+        {
+          "columnId": 6268450439384964,
+          "columnTitle": "Customer",
+          "value": "Barre3 - Arlington, VA",
+          "displayValue": "Barre3 - Arlington, VA"
+        },
+        {
+          "columnId": 4016650625699716,
+          "columnTitle": "Quote Date",
+          "value": "2025-12-09"
+        },
+        {
+          "columnId": 8520250253070212,
+          "columnTitle": "Quotation Sent",
+          "value": false
+        },
+        {
+          "columnId": 357475928461188,
+          "columnTitle": "Order Date",
+          "value": "2025-09-16"
+        },
+        {
+          "columnId": 4861075555831684,
+          "columnTitle": "Signed On"
+        },
+        {
+          "columnId": 2609275742146436,
+          "columnTitle": "Salesperson",
+          "value": "Scott DeLuca",
+          "displayValue": "Scott DeLuca"
+        },
+        {
+          "columnId": 7112875369516932,
+          "columnTitle": "So Reference/Status",
+          "value": "Quotation Sent",
+          "displayValue": "Quotation Sent"
+        },
+        {
+          "columnId": 1483375835303812,
+          "columnTitle": "Stage",
+          "value": "Quote with Customer",
+          "displayValue": "Quote with Customer"
+        },
+        {
+          "columnId": 5986975462674308,
+          "columnTitle": "Expected Closing",
+          "formula": "=[Estimated Opening Date]@row - 56"
+        },
+        {
+          "columnId": 3735175648989060,
+          "columnTitle": "Estimated Opening Date"
+        },
+        {
+          "columnId": 8238775276359556,
+          "columnTitle": "Expected Revenue",
+          "value": 550,
+          "displayValue": "$550.00"
+        },
+        {
+          "columnId": 920425881882500,
+          "columnTitle": "Customer/Tags",
+          "value": "Franchise",
+          "displayValue": "Franchise"
+        },
+        {
+          "columnId": 831512023617412,
+          "columnTitle": "Closed Date"
+        },
+        {
+          "columnId": 7675825322938244,
+          "columnTitle": "Pipeline Revenue",
+          "value": 554,
+          "displayValue": "$554.00",
+          "formula": "=IF(ISBLANK([Quote/SO $]@row), [Expected Revenue]@row, [Quote/SO $]@row)"
+        },
+        {
+          "columnId": 2046325788725124,
+          "columnTitle": "Pipeline Stage",
+          "value": "07. Quote with Customer",
+          "displayValue": "07. Quote with Customer",
+          "formula": "=IF(Stage@row = \"Intake Results Received\", \"01. Intake Results Received\", IF(Stage@row = \"Lead\", \"02. Lead\", IF(Stage@row = \"Compliance\", \"03. Compliance\", IF(Stage@row = \"V.1 Design\", \"04. V.1 Design\", IF(Stage@row = \"Approvals\", \"05. Approvals\", IF(Stage@row = \"Quoting\", \"06. Quoting\", IF(Stage@row = \"Quote with Customer\", \"07. Quote with Customer\", IF(Stage@row = \"On Hold\", \"08. On Hold\", IF(Stage@row = \"Progressing\", \"09. Progressing\", IF(Stage@row = \"Approved/Waiting for Deposit\", \"10. Approved/Waiting for Deposit\", \"\"))))))))))"
+        },
+        {
+          "columnId": 4298125602410372,
+          "columnTitle": "Projected Invoice Month",
+          "formula": "=IFERROR(MONTH([Estimated Opening Date]@row), \"\")"
+        },
+        {
+          "columnId": 8801725229780868,
+          "columnTitle": "Projected Invoice Year",
+          "formula": "=IFERROR(YEAR([Estimated Opening Date]@row), \"\")"
+        }
+      ]
+    }
+  ]
+}

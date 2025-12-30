@@ -368,12 +368,36 @@ npm run build
 - `src/smartsheet-utils.ts`: Utility functions for common operations
 - `src/smartsheet-workflows.ts`: Implementation of complex workflows
 - `src/smartsheet-types`: Classes representing Smartsheet API objects
+- `mappings/`: Direct field mappings between SmartSheet and Odoo
 - `tests/`: Test files for various functionality
 - `scripts/`: Utility scripts
 - `examples/`: Example usage files
 - `.env`: Environment variables
 - `.env.example`: Template for environment variables
-- `claude_desktop_config-example.json`: Example claude desktop config to connect with the tool - Set your Smartsheet key in the env setting. 
+- `claude_desktop_config-example.json`: Example claude desktop config to connect with the tool - Set your Smartsheet key in the env setting.
+
+### Field Mappings
+
+The `mappings/` folder contains direct field mappings for synchronizing data between SmartSheet and Odoo systems:
+
+- **`direct-field-mapping.json`**: Complete mapping configuration for CRM Pipeline and Customer Payments sheets
+- **`use-mapping.js`**: Example script demonstrating how to use the mappings programmatically
+- **`MAPPING_README.md`**: Detailed documentation on the mapping structure and usage patterns
+- **`README.md`**: Quick reference guide for the mappings folder
+
+The mappings support:
+- Direct field lookups from SmartSheet column names to Odoo field names
+- Relationship handling between different Odoo models
+- Calculated field identification
+- Odoo query construction helpers
+
+Example usage:
+```javascript
+import mappingData from './mappings/direct-field-mapping.json';
+
+const field = mappingData.mappings.crm_pipeline.columns['Customer'];
+console.log(field.odoo_field); // "partner_id.name"
+```
 
 ### Testing 
 

@@ -2,11 +2,12 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { SmartsheetAPI } from "../apis/smartsheet-api.js";
 import { z } from "zod";
 
-export function getUpdateRequestTools(server: McpServer, api: SmartsheetAPI) {
+export function getUpdateRequestTools(server: McpServer, api: SmartsheetAPI, allowWriteTools: boolean) {
 
-    // Tool: Create Update Request
-    server.tool(
-      "create_update_request",
+    // Tool: Create Update Request (conditionally registered)
+    if (allowWriteTools) {
+        server.tool(
+          "create_update_request",
       "Creates an update request for a sheet",
       {
         sheetId: z.string().describe("The ID of the sheet"),
@@ -59,5 +60,8 @@ export function getUpdateRequestTools(server: McpServer, api: SmartsheetAPI) {
         }
       }
     );
+    } else {
+        console.warn("Create update request operations are disabled. Set ALLOW_WRITE_TOOLS=true to enable them.");
+    }
 
 }

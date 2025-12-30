@@ -1,0 +1,2096 @@
+{
+  "sourceUrl": "https://app.smartsheet.com/sheets/Xq5JGMgHPC5qvQhWv99WWRh49wfJw3q52Jhp7hx1?view=grid",
+  "originalSheetId": "Xq5JGMgHPC5qvQhWv99WWRh49wfJw3q52Jhp7hx1",
+  "originalSheetName": "Odoo_Orders",
+  "totalRowsInOriginal": 4506,
+  "clonedRows": 5,
+  "columns": [
+    {
+      "id": 8878019901083524,
+      "title": "Order Reference",
+      "type": "TEXT_NUMBER",
+      "index": 0
+    },
+    {
+      "id": 81926878875524,
+      "title": "Account Company",
+      "type": "TEXT_NUMBER",
+      "index": 1
+    },
+    {
+      "id": 7647500535811972,
+      "title": "Opportunity",
+      "type": "TEXT_NUMBER",
+      "index": 2
+    },
+    {
+      "id": 7259140466102148,
+      "title": "Opportunity Stage",
+      "type": "TEXT_NUMBER",
+      "index": 3
+    },
+    {
+      "id": 447156772884356,
+      "title": "Project",
+      "type": "TEXT_NUMBER",
+      "index": 4
+    },
+    {
+      "id": 6948337031008132,
+      "title": "Stage",
+      "type": "TEXT_NUMBER",
+      "index": 5
+    },
+    {
+      "id": 1770776739139460,
+      "title": "Quote/SO Total",
+      "type": "TEXT_NUMBER",
+      "index": 6
+    },
+    {
+      "id": 6837326319931268,
+      "title": "Amount Paid",
+      "type": "TEXT_NUMBER",
+      "index": 7
+    },
+    {
+      "id": 2333726692560772,
+      "title": "Amount Due",
+      "type": "TEXT_NUMBER",
+      "index": 8
+    },
+    {
+      "id": 1207826785718148,
+      "title": "Customer",
+      "type": "TEXT_NUMBER",
+      "index": 9
+    },
+    {
+      "id": 4458876091191172,
+      "title": "Email",
+      "type": "TEXT_NUMBER",
+      "index": 10
+    },
+    {
+      "id": 1625982805168004,
+      "title": "Address",
+      "type": "TEXT_NUMBER",
+      "index": 11
+    },
+    {
+      "id": 7255482339381124,
+      "title": "City",
+      "type": "TEXT_NUMBER",
+      "index": 12
+    },
+    {
+      "id": 2751882712010628,
+      "title": "ST",
+      "type": "TEXT_NUMBER",
+      "index": 13
+    },
+    {
+      "id": 7963226226773892,
+      "title": "Order Date",
+      "type": "DATE",
+      "index": 14
+    },
+    {
+      "id": 5148476459667332,
+      "title": "Quotation Sent",
+      "type": "CHECKBOX",
+      "index": 15
+    },
+    {
+      "id": 5448514939342724,
+      "title": "Quotation Date",
+      "type": "DATE",
+      "index": 16
+    },
+    {
+      "id": 7400276273352580,
+      "title": "Signed On",
+      "type": "DATE",
+      "index": 17
+    },
+    {
+      "id": 2896676645982084,
+      "title": "Salesperson",
+      "type": "TEXT_NUMBER",
+      "index": 18
+    },
+    {
+      "id": 6078650214731652,
+      "title": "Project Manager",
+      "type": "TEXT_NUMBER",
+      "index": 19
+    },
+    {
+      "id": 2444737403637636,
+      "title": "Order Status",
+      "type": "TEXT_NUMBER",
+      "index": 20
+    },
+    {
+      "id": 4356563934072708,
+      "title": "Expected Closing",
+      "type": "DATE",
+      "index": 21
+    },
+    {
+      "id": 7587437039800196,
+      "title": "Estimated Opening Date",
+      "type": "DATE",
+      "index": 22
+    },
+    {
+      "id": 1957937505587076,
+      "title": "Expected Revenue",
+      "type": "TEXT_NUMBER",
+      "index": 23
+    },
+    {
+      "id": 4778776399138692,
+      "title": "Closed Date",
+      "type": "DATE",
+      "index": 24
+    },
+    {
+      "id": 3283477092585348,
+      "title": "Lead Category",
+      "type": "TEXT_NUMBER",
+      "index": 25
+    },
+    {
+      "id": 3985619227463556,
+      "title": "Tags",
+      "type": "TEXT_NUMBER",
+      "index": 26
+    },
+    {
+      "id": 8710824134922116,
+      "title": "Payment Terms",
+      "type": "TEXT_NUMBER",
+      "index": 27
+    },
+    {
+      "id": 5862706051239812,
+      "title": "Odoo Project Link",
+      "type": "TEXT_NUMBER",
+      "index": 28
+    },
+    {
+      "id": 877078721023876,
+      "title": "Invoice Status",
+      "type": "TEXT_NUMBER",
+      "index": 29
+    },
+    {
+      "id": 5668283081248644,
+      "title": "CRM Lead Created Date",
+      "type": "DATE",
+      "index": 30
+    },
+    {
+      "id": 8933766580096900,
+      "title": "Order Confirmd In Current Week",
+      "type": "TEXT_NUMBER",
+      "index": 31
+    },
+    {
+      "id": 137673557888900,
+      "title": "Order Confirmd In Current Month",
+      "type": "TEXT_NUMBER",
+      "index": 32
+    },
+    {
+      "id": 7572127305912196,
+      "title": "Pipeline Revenue",
+      "type": "TEXT_NUMBER",
+      "index": 33
+    },
+    {
+      "id": 6526327016607620,
+      "title": "PIPELINE Invoice Date",
+      "type": "DATE",
+      "index": 34
+    },
+    {
+      "id": 5491592793902980,
+      "title": "PROJECTED Invoice Date",
+      "type": "DATE",
+      "index": 35
+    },
+    {
+      "id": 5875910762516356,
+      "title": "PROJECTED Invoice Month",
+      "type": "TEXT_NUMBER",
+      "index": 36
+    },
+    {
+      "id": 1372311135145860,
+      "title": "PROJECTED Invoice Year",
+      "type": "TEXT_NUMBER",
+      "index": 37
+    },
+    {
+      "id": 5037413416259460,
+      "title": "Pipeline Invoice Month",
+      "type": "TEXT_NUMBER",
+      "index": 38
+    },
+    {
+      "id": 2785613602574212,
+      "title": "Pipeline Invoice Year",
+      "type": "TEXT_NUMBER",
+      "index": 39
+    },
+    {
+      "id": 6305512346570628,
+      "title": "Is Closed?",
+      "type": "TEXT_NUMBER",
+      "index": 40
+    },
+    {
+      "id": 167393121488772,
+      "title": "Closed Week",
+      "type": "TEXT_NUMBER",
+      "index": 41
+    },
+    {
+      "id": 8860163561443204,
+      "title": "Closed Month",
+      "type": "TEXT_NUMBER",
+      "index": 42
+    },
+    {
+      "id": 275176771768196,
+      "title": "Closed Year",
+      "type": "TEXT_NUMBER",
+      "index": 43
+    },
+    {
+      "id": 4041683775475588,
+      "title": "Closed Date Current Week",
+      "type": "TEXT_NUMBER",
+      "index": 44
+    },
+    {
+      "id": 8545283402846084,
+      "title": "Closed Date Current Month",
+      "type": "TEXT_NUMBER",
+      "index": 45
+    },
+    {
+      "id": 6380519557910404,
+      "title": "Closed Date Current Year",
+      "type": "TEXT_NUMBER",
+      "index": 46
+    },
+    {
+      "id": 716175369260932,
+      "title": "Project FInal Invoice Date",
+      "type": "DATE",
+      "index": 47
+    },
+    {
+      "id": 6928646467702660,
+      "title": "Project Final Invoice Year",
+      "type": "TEXT_NUMBER",
+      "index": 48
+    },
+    {
+      "id": 7237793024266116,
+      "title": "Released to Production",
+      "type": "DATE",
+      "index": 49
+    },
+    {
+      "id": 409329618079620,
+      "title": "Project Type",
+      "type": "TEXT_NUMBER",
+      "index": 50
+    },
+    {
+      "id": 6850251138486148,
+      "title": "CRM Pipeline Stage",
+      "type": "TEXT_NUMBER",
+      "index": 51
+    },
+    {
+      "id": 4574331191119748,
+      "title": "Project Status",
+      "type": "TEXT_NUMBER",
+      "index": 52
+    },
+    {
+      "id": 2734193396895620,
+      "title": "Intake-Quoted TAT",
+      "type": "TEXT_NUMBER",
+      "index": 53
+    },
+    {
+      "id": 8363251041259396,
+      "title": "Quoted-Closed TAT",
+      "type": "TEXT_NUMBER",
+      "index": 54
+    },
+    {
+      "id": 2702379908288388,
+      "title": "Closed-Production TAT",
+      "type": "TEXT_NUMBER",
+      "index": 55
+    },
+    {
+      "id": 4329555911987076,
+      "title": "Production-Invoiced TAT",
+      "type": "TEXT_NUMBER",
+      "index": 56
+    }
+  ],
+  "rows": [
+    {
+      "id": 2596334233128836,
+      "rowNumber": 1,
+      "cells": [
+        {
+          "columnId": 8878019901083524,
+          "columnTitle": "Order Reference",
+          "value": "SO45174",
+          "displayValue": "SO45174"
+        },
+        {
+          "columnId": 81926878875524,
+          "columnTitle": "Account Company",
+          "value": "F45 Training",
+          "displayValue": "F45 Training"
+        },
+        {
+          "columnId": 7647500535811972,
+          "columnTitle": "Opportunity",
+          "value": "FS8 - Canonsburg, PA Exterior",
+          "displayValue": "FS8 - Canonsburg, PA Exterior"
+        },
+        {
+          "columnId": 7259140466102148,
+          "columnTitle": "Opportunity Stage",
+          "value": "Closed Won",
+          "displayValue": "Closed Won"
+        },
+        {
+          "columnId": 447156772884356,
+          "columnTitle": "Project",
+          "value": "FS8 - Canonsburg, PA Exterior",
+          "displayValue": "FS8 - Canonsburg, PA Exterior"
+        },
+        {
+          "columnId": 6948337031008132,
+          "columnTitle": "Stage",
+          "value": "In Smartsheet",
+          "displayValue": "In Smartsheet"
+        },
+        {
+          "columnId": 1770776739139460,
+          "columnTitle": "Quote/SO Total",
+          "value": 9058.06,
+          "displayValue": "$9,058.06"
+        },
+        {
+          "columnId": 6837326319931268,
+          "columnTitle": "Amount Paid",
+          "value": 4529.03,
+          "displayValue": "$4,529.03"
+        },
+        {
+          "columnId": 2333726692560772,
+          "columnTitle": "Amount Due",
+          "value": 4529.03,
+          "displayValue": "$4,529.03"
+        },
+        {
+          "columnId": 1207826785718148,
+          "columnTitle": "Customer",
+          "value": "FS8 - Canonsburg, PA",
+          "displayValue": "FS8 - Canonsburg, PA"
+        },
+        {
+          "columnId": 4458876091191172,
+          "columnTitle": "Email",
+          "value": "canonsburg.admin@fs8studio.com",
+          "displayValue": "canonsburg.admin@fs8studio.com"
+        },
+        {
+          "columnId": 1625982805168004,
+          "columnTitle": "Address",
+          "value": "3909 Washington Road",
+          "displayValue": "3909 Washington Road"
+        },
+        {
+          "columnId": 7255482339381124,
+          "columnTitle": "City",
+          "value": "Canonsburg",
+          "displayValue": "Canonsburg"
+        },
+        {
+          "columnId": 2751882712010628,
+          "columnTitle": "ST",
+          "value": "PA",
+          "displayValue": "PA"
+        },
+        {
+          "columnId": 7963226226773892,
+          "columnTitle": "Order Date",
+          "value": "2025-12-30"
+        },
+        {
+          "columnId": 5148476459667332,
+          "columnTitle": "Quotation Sent",
+          "value": true
+        },
+        {
+          "columnId": 5448514939342724,
+          "columnTitle": "Quotation Date",
+          "value": "2025-12-17"
+        },
+        {
+          "columnId": 7400276273352580,
+          "columnTitle": "Signed On",
+          "value": "2025-12-23"
+        },
+        {
+          "columnId": 2896676645982084,
+          "columnTitle": "Salesperson",
+          "value": "Derrick Pesterfield",
+          "displayValue": "Derrick Pesterfield"
+        },
+        {
+          "columnId": 6078650214731652,
+          "columnTitle": "Project Manager",
+          "value": "Christen Fiedler",
+          "displayValue": "Christen Fiedler"
+        },
+        {
+          "columnId": 2444737403637636,
+          "columnTitle": "Order Status",
+          "value": "Sales Order",
+          "displayValue": "Sales Order"
+        },
+        {
+          "columnId": 4356563934072708,
+          "columnTitle": "Expected Closing",
+          "value": "2025-12-26"
+        },
+        {
+          "columnId": 7587437039800196,
+          "columnTitle": "Estimated Opening Date",
+          "value": "2026-02-07"
+        },
+        {
+          "columnId": 1957937505587076,
+          "columnTitle": "Expected Revenue",
+          "value": 9058.06,
+          "displayValue": "$9,058.06"
+        },
+        {
+          "columnId": 4778776399138692,
+          "columnTitle": "Closed Date",
+          "value": "2025-12-23"
+        },
+        {
+          "columnId": 3283477092585348,
+          "columnTitle": "Lead Category",
+          "value": "Franchisees",
+          "displayValue": "Franchisees"
+        },
+        {
+          "columnId": 3985619227463556,
+          "columnTitle": "Tags",
+          "value": "Franchise",
+          "displayValue": "Franchise"
+        },
+        {
+          "columnId": 8710824134922116,
+          "columnTitle": "Payment Terms",
+          "value": "50% Down, Balance Net 15",
+          "displayValue": "50% Down, Balance Net 15"
+        },
+        {
+          "columnId": 5862706051239812,
+          "columnTitle": "Odoo Project Link",
+          "value": "https://siliconsignsut-odoo.odoo.com/web#id=4792&model=project.project&view_type=form&menu_id=375",
+          "displayValue": "https://siliconsignsut-odoo.odoo.com/web#id=4792&model=project.project&view_type=form&menu_id=375"
+        },
+        {
+          "columnId": 877078721023876,
+          "columnTitle": "Invoice Status",
+          "value": "To Invoice",
+          "displayValue": "To Invoice"
+        },
+        {
+          "columnId": 5668283081248644,
+          "columnTitle": "CRM Lead Created Date",
+          "value": "2025-10-09"
+        },
+        {
+          "columnId": 8933766580096900,
+          "columnTitle": "Order Confirmd In Current Week",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IF(AND([Order Date]@row >= TODAY() - WEEKDAY(TODAY()) + 1, [Order Date]@row <= TODAY() - WEEKDAY(TODAY()) + 7), \"Yes\", \"No\")"
+        },
+        {
+          "columnId": 137673557888900,
+          "columnTitle": "Order Confirmd In Current Month",
+          "value": "#INVALID VALUE",
+          "displayValue": "#INVALID VALUE",
+          "formula": "=IF(AND([Order Date]@row >= DATE(YEAR(TODAY()), MONTH(TODAY()), 1), [Order Date]@row <= DATE(YEAR(TODAY()), MONTH(TODAY()) + 1, 1) - 1), \"Yes\", \"No\")"
+        },
+        {
+          "columnId": 7572127305912196,
+          "columnTitle": "Pipeline Revenue",
+          "value": 9058.06,
+          "displayValue": "$9,058.06",
+          "formula": "=IF([Quote/SO Total]@row = \"\", [Expected Revenue]@row, [Quote/SO Total]@row)"
+        },
+        {
+          "columnId": 6526327016607620,
+          "columnTitle": "PIPELINE Invoice Date",
+          "value": "2026-02-07",
+          "formula": "=[Estimated Opening Date]@row"
+        },
+        {
+          "columnId": 5491592793902980,
+          "columnTitle": "PROJECTED Invoice Date",
+          "value": "2026-02-08",
+          "formula": "=IFERROR(INDEX({Project PROJECTED Invoice Date}, MATCH([Order Reference]@row, {Projects ORDER}, 0)), \"\")"
+        },
+        {
+          "columnId": 5875910762516356,
+          "columnTitle": "PROJECTED Invoice Month",
+          "value": 2,
+          "displayValue": "2",
+          "formula": "=IFERROR(MONTH([PROJECTED Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 1372311135145860,
+          "columnTitle": "PROJECTED Invoice Year",
+          "value": 2026,
+          "displayValue": "2026",
+          "formula": "=IFERROR(YEAR([PROJECTED Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 5037413416259460,
+          "columnTitle": "Pipeline Invoice Month",
+          "value": 2,
+          "displayValue": "2",
+          "formula": "=IFERROR(MONTH([PIPELINE Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 2785613602574212,
+          "columnTitle": "Pipeline Invoice Year",
+          "value": 2026,
+          "displayValue": "2026",
+          "formula": "=IFERROR(YEAR([PIPELINE Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 6305512346570628,
+          "columnTitle": "Is Closed?",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IF(OR([Opportunity Stage]@row = \"Closed Won\", [Opportunity Stage]@row = \"Closed Lost\"), \"Yes\", \"No\")"
+        },
+        {
+          "columnId": 167393121488772,
+          "columnTitle": "Closed Week",
+          "value": 52,
+          "displayValue": "52",
+          "formula": "=IFERROR(WEEKNUMBER([Closed Date]@row), \"\")"
+        },
+        {
+          "columnId": 8860163561443204,
+          "columnTitle": "Closed Month",
+          "value": 12,
+          "displayValue": "12",
+          "formula": "=IFERROR(MONTH([Closed Date]@row), \"\")"
+        },
+        {
+          "columnId": 275176771768196,
+          "columnTitle": "Closed Year",
+          "value": 2025,
+          "displayValue": "2025",
+          "formula": "=IFERROR(YEAR([Closed Date]@row), \"\")"
+        },
+        {
+          "columnId": 4041683775475588,
+          "columnTitle": "Closed Date Current Week",
+          "value": "No",
+          "displayValue": "No",
+          "formula": "=IFERROR(IF(WEEKNUMBER([Closed Date]@row) = WEEKNUMBER(TODAY()), \"Yes\", \"No\"), \"\")"
+        },
+        {
+          "columnId": 8545283402846084,
+          "columnTitle": "Closed Date Current Month",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IFERROR(IF(AND(MONTH([Closed Date]@row) = MONTH(TODAY()), YEAR([Closed Date]@row) = YEAR(TODAY())), \"Yes\", \"No\"), \"\")"
+        },
+        {
+          "columnId": 6380519557910404,
+          "columnTitle": "Closed Date Current Year",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IFERROR(IF(YEAR([Closed Date]@row) = YEAR(TODAY()), \"Yes\", \"No\"), \"\")"
+        },
+        {
+          "columnId": 716175369260932,
+          "columnTitle": "Project FInal Invoice Date",
+          "formula": "=IFERROR(INDEX({Invoice Date}, MATCH([Order Reference]@row, {Invoice ORDER}, 0), 1), \"\")"
+        },
+        {
+          "columnId": 6928646467702660,
+          "columnTitle": "Project Final Invoice Year",
+          "formula": "=IFERROR(YEAR([Project FInal Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 7237793024266116,
+          "columnTitle": "Released to Production"
+        },
+        {
+          "columnId": 409329618079620,
+          "columnTitle": "Project Type",
+          "value": "Exterior",
+          "displayValue": "Exterior",
+          "formula": "=IF(CONTAINS(\"Exterior\", Opportunity@row), \"Exterior\", IF(CONTAINS(\"Interior\", Opportunity@row), \"Interior\", IF(OR(CONTAINS(\"Construction\", Opportunity@row), CONTAINS(\"Temp\", Opportunity@row), CONTAINS(\"Banner\", Opportunity@row), CONTAINS(\"Window Graphics\", Opportunity@row), CONTAINS(\"Door Vinyl\", Opportunity@row)), \"Construction/Temp/Graphics\", \"Other\")))"
+        },
+        {
+          "columnId": 6850251138486148,
+          "columnTitle": "CRM Pipeline Stage",
+          "value": "7. Closed Won",
+          "displayValue": "7. Closed Won"
+        },
+        {
+          "columnId": 4574331191119748,
+          "columnTitle": "Project Status",
+          "value": "1. Planning",
+          "displayValue": "1. Planning",
+          "formula": "=IFERROR(INDEX({PROJECT Status}, MATCH([Order Reference]@row, {Projects ORDER}, 0)), \"\")"
+        },
+        {
+          "columnId": 2734193396895620,
+          "columnTitle": "Intake-Quoted TAT",
+          "value": 69,
+          "displayValue": "69",
+          "formula": "=[Quotation Date]@row - [CRM Lead Created Date]@row"
+        },
+        {
+          "columnId": 8363251041259396,
+          "columnTitle": "Quoted-Closed TAT",
+          "value": 5,
+          "displayValue": "5",
+          "formula": "=IFERROR(NETWORKDAYS([Quotation Date]@row, [Closed Date]@row), \"\")"
+        },
+        {
+          "columnId": 2702379908288388,
+          "columnTitle": "Closed-Production TAT",
+          "formula": "=IFERROR(NETWORKDAYS([Closed Date]@row, [Project FInal Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 4329555911987076,
+          "columnTitle": "Production-Invoiced TAT"
+        }
+      ]
+    },
+    {
+      "id": 7099933860499332,
+      "rowNumber": 2,
+      "cells": [
+        {
+          "columnId": 8878019901083524,
+          "columnTitle": "Order Reference",
+          "value": "SO45209",
+          "displayValue": "SO45209"
+        },
+        {
+          "columnId": 81926878875524,
+          "columnTitle": "Account Company",
+          "value": "BODYBAR",
+          "displayValue": "BODYBAR"
+        },
+        {
+          "columnId": 7647500535811972,
+          "columnTitle": "Opportunity",
+          "value": "BODYBAR - Denver, CO Interior",
+          "displayValue": "BODYBAR - Denver, CO Interior"
+        },
+        {
+          "columnId": 7259140466102148,
+          "columnTitle": "Opportunity Stage",
+          "value": "Closed Won",
+          "displayValue": "Closed Won"
+        },
+        {
+          "columnId": 447156772884356,
+          "columnTitle": "Project",
+          "value": "BODYBAR - Denver, CO Interior",
+          "displayValue": "BODYBAR - Denver, CO Interior"
+        },
+        {
+          "columnId": 6948337031008132,
+          "columnTitle": "Stage",
+          "value": "In Smartsheet",
+          "displayValue": "In Smartsheet"
+        },
+        {
+          "columnId": 1770776739139460,
+          "columnTitle": "Quote/SO Total",
+          "value": 4265.82,
+          "displayValue": "$4,265.82"
+        },
+        {
+          "columnId": 6837326319931268,
+          "columnTitle": "Amount Paid",
+          "value": 2132.91,
+          "displayValue": "$2,132.91"
+        },
+        {
+          "columnId": 2333726692560772,
+          "columnTitle": "Amount Due",
+          "value": 2132.91,
+          "displayValue": "$2,132.91"
+        },
+        {
+          "columnId": 1207826785718148,
+          "columnTitle": "Customer",
+          "value": "BODYBAR - Denver, CO",
+          "displayValue": "BODYBAR - Denver, CO"
+        },
+        {
+          "columnId": 4458876091191172,
+          "columnTitle": "Email",
+          "value": "bernadette.johnson@bodybarpilates.com",
+          "displayValue": "bernadette.johnson@bodybarpilates.com"
+        },
+        {
+          "columnId": 1625982805168004,
+          "columnTitle": "Address",
+          "value": "7300 E. Hampden Ave.",
+          "displayValue": "7300 E. Hampden Ave."
+        },
+        {
+          "columnId": 7255482339381124,
+          "columnTitle": "City",
+          "value": "Denver",
+          "displayValue": "Denver"
+        },
+        {
+          "columnId": 2751882712010628,
+          "columnTitle": "ST",
+          "value": "CO",
+          "displayValue": "CO"
+        },
+        {
+          "columnId": 7963226226773892,
+          "columnTitle": "Order Date",
+          "value": "2025-12-30"
+        },
+        {
+          "columnId": 5148476459667332,
+          "columnTitle": "Quotation Sent",
+          "value": true
+        },
+        {
+          "columnId": 5448514939342724,
+          "columnTitle": "Quotation Date",
+          "value": "2025-12-23"
+        },
+        {
+          "columnId": 7400276273352580,
+          "columnTitle": "Signed On",
+          "value": "2025-12-23"
+        },
+        {
+          "columnId": 2896676645982084,
+          "columnTitle": "Salesperson",
+          "value": "Derrick Pesterfield",
+          "displayValue": "Derrick Pesterfield"
+        },
+        {
+          "columnId": 6078650214731652,
+          "columnTitle": "Project Manager",
+          "value": "Sarah Cordell",
+          "displayValue": "Sarah Cordell"
+        },
+        {
+          "columnId": 2444737403637636,
+          "columnTitle": "Order Status",
+          "value": "Sales Order",
+          "displayValue": "Sales Order"
+        },
+        {
+          "columnId": 4356563934072708,
+          "columnTitle": "Expected Closing",
+          "value": "2026-01-05"
+        },
+        {
+          "columnId": 7587437039800196,
+          "columnTitle": "Estimated Opening Date",
+          "value": "2026-03-16"
+        },
+        {
+          "columnId": 1957937505587076,
+          "columnTitle": "Expected Revenue",
+          "value": 4265.82,
+          "displayValue": "$4,265.82"
+        },
+        {
+          "columnId": 4778776399138692,
+          "columnTitle": "Closed Date",
+          "value": "2025-12-23"
+        },
+        {
+          "columnId": 3283477092585348,
+          "columnTitle": "Lead Category"
+        },
+        {
+          "columnId": 3985619227463556,
+          "columnTitle": "Tags",
+          "value": "Franchise",
+          "displayValue": "Franchise"
+        },
+        {
+          "columnId": 8710824134922116,
+          "columnTitle": "Payment Terms",
+          "value": "50% Down, Balance Net 15",
+          "displayValue": "50% Down, Balance Net 15"
+        },
+        {
+          "columnId": 5862706051239812,
+          "columnTitle": "Odoo Project Link",
+          "value": "https://siliconsignsut-odoo.odoo.com/web#id=4801&model=project.project&view_type=form&menu_id=375",
+          "displayValue": "https://siliconsignsut-odoo.odoo.com/web#id=4801&model=project.project&view_type=form&menu_id=375"
+        },
+        {
+          "columnId": 877078721023876,
+          "columnTitle": "Invoice Status",
+          "value": "To Invoice",
+          "displayValue": "To Invoice"
+        },
+        {
+          "columnId": 5668283081248644,
+          "columnTitle": "CRM Lead Created Date",
+          "value": "2025-09-18"
+        },
+        {
+          "columnId": 8933766580096900,
+          "columnTitle": "Order Confirmd In Current Week",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IF(AND([Order Date]@row >= TODAY() - WEEKDAY(TODAY()) + 1, [Order Date]@row <= TODAY() - WEEKDAY(TODAY()) + 7), \"Yes\", \"No\")"
+        },
+        {
+          "columnId": 137673557888900,
+          "columnTitle": "Order Confirmd In Current Month",
+          "value": "#INVALID VALUE",
+          "displayValue": "#INVALID VALUE",
+          "formula": "=IF(AND([Order Date]@row >= DATE(YEAR(TODAY()), MONTH(TODAY()), 1), [Order Date]@row <= DATE(YEAR(TODAY()), MONTH(TODAY()) + 1, 1) - 1), \"Yes\", \"No\")"
+        },
+        {
+          "columnId": 7572127305912196,
+          "columnTitle": "Pipeline Revenue",
+          "value": 4265.82,
+          "displayValue": "$4,265.82",
+          "formula": "=IF([Quote/SO Total]@row = \"\", [Expected Revenue]@row, [Quote/SO Total]@row)"
+        },
+        {
+          "columnId": 6526327016607620,
+          "columnTitle": "PIPELINE Invoice Date",
+          "value": "2026-03-16",
+          "formula": "=[Estimated Opening Date]@row"
+        },
+        {
+          "columnId": 5491592793902980,
+          "columnTitle": "PROJECTED Invoice Date",
+          "value": "2026-03-23",
+          "formula": "=IFERROR(INDEX({Project PROJECTED Invoice Date}, MATCH([Order Reference]@row, {Projects ORDER}, 0)), \"\")"
+        },
+        {
+          "columnId": 5875910762516356,
+          "columnTitle": "PROJECTED Invoice Month",
+          "value": 3,
+          "displayValue": "3",
+          "formula": "=IFERROR(MONTH([PROJECTED Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 1372311135145860,
+          "columnTitle": "PROJECTED Invoice Year",
+          "value": 2026,
+          "displayValue": "2026",
+          "formula": "=IFERROR(YEAR([PROJECTED Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 5037413416259460,
+          "columnTitle": "Pipeline Invoice Month",
+          "value": 3,
+          "displayValue": "3",
+          "formula": "=IFERROR(MONTH([PIPELINE Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 2785613602574212,
+          "columnTitle": "Pipeline Invoice Year",
+          "value": 2026,
+          "displayValue": "2026",
+          "formula": "=IFERROR(YEAR([PIPELINE Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 6305512346570628,
+          "columnTitle": "Is Closed?",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IF(OR([Opportunity Stage]@row = \"Closed Won\", [Opportunity Stage]@row = \"Closed Lost\"), \"Yes\", \"No\")"
+        },
+        {
+          "columnId": 167393121488772,
+          "columnTitle": "Closed Week",
+          "value": 52,
+          "displayValue": "52",
+          "formula": "=IFERROR(WEEKNUMBER([Closed Date]@row), \"\")"
+        },
+        {
+          "columnId": 8860163561443204,
+          "columnTitle": "Closed Month",
+          "value": 12,
+          "displayValue": "12",
+          "formula": "=IFERROR(MONTH([Closed Date]@row), \"\")"
+        },
+        {
+          "columnId": 275176771768196,
+          "columnTitle": "Closed Year",
+          "value": 2025,
+          "displayValue": "2025",
+          "formula": "=IFERROR(YEAR([Closed Date]@row), \"\")"
+        },
+        {
+          "columnId": 4041683775475588,
+          "columnTitle": "Closed Date Current Week",
+          "value": "No",
+          "displayValue": "No",
+          "formula": "=IFERROR(IF(WEEKNUMBER([Closed Date]@row) = WEEKNUMBER(TODAY()), \"Yes\", \"No\"), \"\")"
+        },
+        {
+          "columnId": 8545283402846084,
+          "columnTitle": "Closed Date Current Month",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IFERROR(IF(AND(MONTH([Closed Date]@row) = MONTH(TODAY()), YEAR([Closed Date]@row) = YEAR(TODAY())), \"Yes\", \"No\"), \"\")"
+        },
+        {
+          "columnId": 6380519557910404,
+          "columnTitle": "Closed Date Current Year",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IFERROR(IF(YEAR([Closed Date]@row) = YEAR(TODAY()), \"Yes\", \"No\"), \"\")"
+        },
+        {
+          "columnId": 716175369260932,
+          "columnTitle": "Project FInal Invoice Date",
+          "formula": "=IFERROR(INDEX({Invoice Date}, MATCH([Order Reference]@row, {Invoice ORDER}, 0), 1), \"\")"
+        },
+        {
+          "columnId": 6928646467702660,
+          "columnTitle": "Project Final Invoice Year",
+          "formula": "=IFERROR(YEAR([Project FInal Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 7237793024266116,
+          "columnTitle": "Released to Production"
+        },
+        {
+          "columnId": 409329618079620,
+          "columnTitle": "Project Type",
+          "value": "Interior",
+          "displayValue": "Interior",
+          "formula": "=IF(CONTAINS(\"Exterior\", Opportunity@row), \"Exterior\", IF(CONTAINS(\"Interior\", Opportunity@row), \"Interior\", IF(OR(CONTAINS(\"Construction\", Opportunity@row), CONTAINS(\"Temp\", Opportunity@row), CONTAINS(\"Banner\", Opportunity@row), CONTAINS(\"Window Graphics\", Opportunity@row), CONTAINS(\"Door Vinyl\", Opportunity@row)), \"Construction/Temp/Graphics\", \"Other\")))"
+        },
+        {
+          "columnId": 6850251138486148,
+          "columnTitle": "CRM Pipeline Stage",
+          "value": "7. Closed Won",
+          "displayValue": "7. Closed Won"
+        },
+        {
+          "columnId": 4574331191119748,
+          "columnTitle": "Project Status",
+          "value": "0. NEW",
+          "displayValue": "0. NEW",
+          "formula": "=IFERROR(INDEX({PROJECT Status}, MATCH([Order Reference]@row, {Projects ORDER}, 0)), \"\")"
+        },
+        {
+          "columnId": 2734193396895620,
+          "columnTitle": "Intake-Quoted TAT",
+          "value": 96,
+          "displayValue": "96",
+          "formula": "=[Quotation Date]@row - [CRM Lead Created Date]@row"
+        },
+        {
+          "columnId": 8363251041259396,
+          "columnTitle": "Quoted-Closed TAT",
+          "value": 1,
+          "displayValue": "1",
+          "formula": "=IFERROR(NETWORKDAYS([Quotation Date]@row, [Closed Date]@row), \"\")"
+        },
+        {
+          "columnId": 2702379908288388,
+          "columnTitle": "Closed-Production TAT",
+          "formula": "=IFERROR(NETWORKDAYS([Closed Date]@row, [Project FInal Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 4329555911987076,
+          "columnTitle": "Production-Invoiced TAT"
+        }
+      ]
+    },
+    {
+      "id": 1470434326286212,
+      "rowNumber": 3,
+      "cells": [
+        {
+          "columnId": 8878019901083524,
+          "columnTitle": "Order Reference",
+          "value": "SO45207",
+          "displayValue": "SO45207"
+        },
+        {
+          "columnId": 81926878875524,
+          "columnTitle": "Account Company",
+          "value": "BODYBAR",
+          "displayValue": "BODYBAR"
+        },
+        {
+          "columnId": 7647500535811972,
+          "columnTitle": "Opportunity",
+          "value": "BODYBAR - Denver, CO Exterior",
+          "displayValue": "BODYBAR - Denver, CO Exterior"
+        },
+        {
+          "columnId": 7259140466102148,
+          "columnTitle": "Opportunity Stage",
+          "value": "Closed Won",
+          "displayValue": "Closed Won"
+        },
+        {
+          "columnId": 447156772884356,
+          "columnTitle": "Project",
+          "value": "BODYBAR - Denver, CO Exterior",
+          "displayValue": "BODYBAR - Denver, CO Exterior"
+        },
+        {
+          "columnId": 6948337031008132,
+          "columnTitle": "Stage",
+          "value": "In Smartsheet",
+          "displayValue": "In Smartsheet"
+        },
+        {
+          "columnId": 1770776739139460,
+          "columnTitle": "Quote/SO Total",
+          "value": 9960.32,
+          "displayValue": "$9,960.32"
+        },
+        {
+          "columnId": 6837326319931268,
+          "columnTitle": "Amount Paid",
+          "value": 4980.16,
+          "displayValue": "$4,980.16"
+        },
+        {
+          "columnId": 2333726692560772,
+          "columnTitle": "Amount Due",
+          "value": 4980.16,
+          "displayValue": "$4,980.16"
+        },
+        {
+          "columnId": 1207826785718148,
+          "columnTitle": "Customer",
+          "value": "BODYBAR - Denver, CO",
+          "displayValue": "BODYBAR - Denver, CO"
+        },
+        {
+          "columnId": 4458876091191172,
+          "columnTitle": "Email",
+          "value": "bernadette.johnson@bodybarpilates.com",
+          "displayValue": "bernadette.johnson@bodybarpilates.com"
+        },
+        {
+          "columnId": 1625982805168004,
+          "columnTitle": "Address",
+          "value": "7300 E. Hampden Ave.",
+          "displayValue": "7300 E. Hampden Ave."
+        },
+        {
+          "columnId": 7255482339381124,
+          "columnTitle": "City",
+          "value": "Denver",
+          "displayValue": "Denver"
+        },
+        {
+          "columnId": 2751882712010628,
+          "columnTitle": "ST",
+          "value": "CO",
+          "displayValue": "CO"
+        },
+        {
+          "columnId": 7963226226773892,
+          "columnTitle": "Order Date",
+          "value": "2025-12-30"
+        },
+        {
+          "columnId": 5148476459667332,
+          "columnTitle": "Quotation Sent",
+          "value": true
+        },
+        {
+          "columnId": 5448514939342724,
+          "columnTitle": "Quotation Date",
+          "value": "2025-12-23"
+        },
+        {
+          "columnId": 7400276273352580,
+          "columnTitle": "Signed On",
+          "value": "2025-12-23"
+        },
+        {
+          "columnId": 2896676645982084,
+          "columnTitle": "Salesperson",
+          "value": "Derrick Pesterfield",
+          "displayValue": "Derrick Pesterfield"
+        },
+        {
+          "columnId": 6078650214731652,
+          "columnTitle": "Project Manager",
+          "value": "Sarah Cordell",
+          "displayValue": "Sarah Cordell"
+        },
+        {
+          "columnId": 2444737403637636,
+          "columnTitle": "Order Status",
+          "value": "Sales Order",
+          "displayValue": "Sales Order"
+        },
+        {
+          "columnId": 4356563934072708,
+          "columnTitle": "Expected Closing",
+          "value": "2026-02-17"
+        },
+        {
+          "columnId": 7587437039800196,
+          "columnTitle": "Estimated Opening Date",
+          "value": "2026-04-30"
+        },
+        {
+          "columnId": 1957937505587076,
+          "columnTitle": "Expected Revenue",
+          "value": 9960.32,
+          "displayValue": "$9,960.32"
+        },
+        {
+          "columnId": 4778776399138692,
+          "columnTitle": "Closed Date",
+          "value": "2025-12-23"
+        },
+        {
+          "columnId": 3283477092585348,
+          "columnTitle": "Lead Category"
+        },
+        {
+          "columnId": 3985619227463556,
+          "columnTitle": "Tags",
+          "value": "Franchise",
+          "displayValue": "Franchise"
+        },
+        {
+          "columnId": 8710824134922116,
+          "columnTitle": "Payment Terms",
+          "value": "50% Down, Balance Net 15",
+          "displayValue": "50% Down, Balance Net 15"
+        },
+        {
+          "columnId": 5862706051239812,
+          "columnTitle": "Odoo Project Link",
+          "value": "https://siliconsignsut-odoo.odoo.com/web#id=4802&model=project.project&view_type=form&menu_id=375",
+          "displayValue": "https://siliconsignsut-odoo.odoo.com/web#id=4802&model=project.project&view_type=form&menu_id=375"
+        },
+        {
+          "columnId": 877078721023876,
+          "columnTitle": "Invoice Status",
+          "value": "To Invoice",
+          "displayValue": "To Invoice"
+        },
+        {
+          "columnId": 5668283081248644,
+          "columnTitle": "CRM Lead Created Date",
+          "value": "2025-09-18"
+        },
+        {
+          "columnId": 8933766580096900,
+          "columnTitle": "Order Confirmd In Current Week",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IF(AND([Order Date]@row >= TODAY() - WEEKDAY(TODAY()) + 1, [Order Date]@row <= TODAY() - WEEKDAY(TODAY()) + 7), \"Yes\", \"No\")"
+        },
+        {
+          "columnId": 137673557888900,
+          "columnTitle": "Order Confirmd In Current Month",
+          "value": "#INVALID VALUE",
+          "displayValue": "#INVALID VALUE",
+          "formula": "=IF(AND([Order Date]@row >= DATE(YEAR(TODAY()), MONTH(TODAY()), 1), [Order Date]@row <= DATE(YEAR(TODAY()), MONTH(TODAY()) + 1, 1) - 1), \"Yes\", \"No\")"
+        },
+        {
+          "columnId": 7572127305912196,
+          "columnTitle": "Pipeline Revenue",
+          "value": 9960.32,
+          "displayValue": "$9,960.32",
+          "formula": "=IF([Quote/SO Total]@row = \"\", [Expected Revenue]@row, [Quote/SO Total]@row)"
+        },
+        {
+          "columnId": 6526327016607620,
+          "columnTitle": "PIPELINE Invoice Date",
+          "value": "2026-04-30",
+          "formula": "=[Estimated Opening Date]@row"
+        },
+        {
+          "columnId": 5491592793902980,
+          "columnTitle": "PROJECTED Invoice Date",
+          "value": "2026-04-15",
+          "formula": "=IFERROR(INDEX({Project PROJECTED Invoice Date}, MATCH([Order Reference]@row, {Projects ORDER}, 0)), \"\")"
+        },
+        {
+          "columnId": 5875910762516356,
+          "columnTitle": "PROJECTED Invoice Month",
+          "value": 4,
+          "displayValue": "4",
+          "formula": "=IFERROR(MONTH([PROJECTED Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 1372311135145860,
+          "columnTitle": "PROJECTED Invoice Year",
+          "value": 2026,
+          "displayValue": "2026",
+          "formula": "=IFERROR(YEAR([PROJECTED Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 5037413416259460,
+          "columnTitle": "Pipeline Invoice Month",
+          "value": 4,
+          "displayValue": "4",
+          "formula": "=IFERROR(MONTH([PIPELINE Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 2785613602574212,
+          "columnTitle": "Pipeline Invoice Year",
+          "value": 2026,
+          "displayValue": "2026",
+          "formula": "=IFERROR(YEAR([PIPELINE Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 6305512346570628,
+          "columnTitle": "Is Closed?",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IF(OR([Opportunity Stage]@row = \"Closed Won\", [Opportunity Stage]@row = \"Closed Lost\"), \"Yes\", \"No\")"
+        },
+        {
+          "columnId": 167393121488772,
+          "columnTitle": "Closed Week",
+          "value": 52,
+          "displayValue": "52",
+          "formula": "=IFERROR(WEEKNUMBER([Closed Date]@row), \"\")"
+        },
+        {
+          "columnId": 8860163561443204,
+          "columnTitle": "Closed Month",
+          "value": 12,
+          "displayValue": "12",
+          "formula": "=IFERROR(MONTH([Closed Date]@row), \"\")"
+        },
+        {
+          "columnId": 275176771768196,
+          "columnTitle": "Closed Year",
+          "value": 2025,
+          "displayValue": "2025",
+          "formula": "=IFERROR(YEAR([Closed Date]@row), \"\")"
+        },
+        {
+          "columnId": 4041683775475588,
+          "columnTitle": "Closed Date Current Week",
+          "value": "No",
+          "displayValue": "No",
+          "formula": "=IFERROR(IF(WEEKNUMBER([Closed Date]@row) = WEEKNUMBER(TODAY()), \"Yes\", \"No\"), \"\")"
+        },
+        {
+          "columnId": 8545283402846084,
+          "columnTitle": "Closed Date Current Month",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IFERROR(IF(AND(MONTH([Closed Date]@row) = MONTH(TODAY()), YEAR([Closed Date]@row) = YEAR(TODAY())), \"Yes\", \"No\"), \"\")"
+        },
+        {
+          "columnId": 6380519557910404,
+          "columnTitle": "Closed Date Current Year",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IFERROR(IF(YEAR([Closed Date]@row) = YEAR(TODAY()), \"Yes\", \"No\"), \"\")"
+        },
+        {
+          "columnId": 716175369260932,
+          "columnTitle": "Project FInal Invoice Date",
+          "formula": "=IFERROR(INDEX({Invoice Date}, MATCH([Order Reference]@row, {Invoice ORDER}, 0), 1), \"\")"
+        },
+        {
+          "columnId": 6928646467702660,
+          "columnTitle": "Project Final Invoice Year",
+          "formula": "=IFERROR(YEAR([Project FInal Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 7237793024266116,
+          "columnTitle": "Released to Production"
+        },
+        {
+          "columnId": 409329618079620,
+          "columnTitle": "Project Type",
+          "value": "Exterior",
+          "displayValue": "Exterior",
+          "formula": "=IF(CONTAINS(\"Exterior\", Opportunity@row), \"Exterior\", IF(CONTAINS(\"Interior\", Opportunity@row), \"Interior\", IF(OR(CONTAINS(\"Construction\", Opportunity@row), CONTAINS(\"Temp\", Opportunity@row), CONTAINS(\"Banner\", Opportunity@row), CONTAINS(\"Window Graphics\", Opportunity@row), CONTAINS(\"Door Vinyl\", Opportunity@row)), \"Construction/Temp/Graphics\", \"Other\")))"
+        },
+        {
+          "columnId": 6850251138486148,
+          "columnTitle": "CRM Pipeline Stage",
+          "value": "7. Closed Won",
+          "displayValue": "7. Closed Won"
+        },
+        {
+          "columnId": 4574331191119748,
+          "columnTitle": "Project Status",
+          "value": "0. NEW",
+          "displayValue": "0. NEW",
+          "formula": "=IFERROR(INDEX({PROJECT Status}, MATCH([Order Reference]@row, {Projects ORDER}, 0)), \"\")"
+        },
+        {
+          "columnId": 2734193396895620,
+          "columnTitle": "Intake-Quoted TAT",
+          "value": 96,
+          "displayValue": "96",
+          "formula": "=[Quotation Date]@row - [CRM Lead Created Date]@row"
+        },
+        {
+          "columnId": 8363251041259396,
+          "columnTitle": "Quoted-Closed TAT",
+          "value": 1,
+          "displayValue": "1",
+          "formula": "=IFERROR(NETWORKDAYS([Quotation Date]@row, [Closed Date]@row), \"\")"
+        },
+        {
+          "columnId": 2702379908288388,
+          "columnTitle": "Closed-Production TAT",
+          "formula": "=IFERROR(NETWORKDAYS([Closed Date]@row, [Project FInal Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 4329555911987076,
+          "columnTitle": "Production-Invoiced TAT"
+        }
+      ]
+    },
+    {
+      "id": 5974033953656708,
+      "rowNumber": 4,
+      "cells": [
+        {
+          "columnId": 8878019901083524,
+          "columnTitle": "Order Reference",
+          "value": "SO45173",
+          "displayValue": "SO45173"
+        },
+        {
+          "columnId": 81926878875524,
+          "columnTitle": "Account Company",
+          "value": "F45 Training",
+          "displayValue": "F45 Training"
+        },
+        {
+          "columnId": 7647500535811972,
+          "columnTitle": "Opportunity",
+          "value": "FS8 - Canonsburg, PA Interior",
+          "displayValue": "FS8 - Canonsburg, PA Interior"
+        },
+        {
+          "columnId": 7259140466102148,
+          "columnTitle": "Opportunity Stage",
+          "value": "Closed Won",
+          "displayValue": "Closed Won"
+        },
+        {
+          "columnId": 447156772884356,
+          "columnTitle": "Project",
+          "value": "FS8 - Canonsburg, PA Interior",
+          "displayValue": "FS8 - Canonsburg, PA Interior"
+        },
+        {
+          "columnId": 6948337031008132,
+          "columnTitle": "Stage",
+          "value": "In Smartsheet",
+          "displayValue": "In Smartsheet"
+        },
+        {
+          "columnId": 1770776739139460,
+          "columnTitle": "Quote/SO Total",
+          "value": 3412.16,
+          "displayValue": "$3,412.16"
+        },
+        {
+          "columnId": 6837326319931268,
+          "columnTitle": "Amount Paid",
+          "value": 1706.08,
+          "displayValue": "$1,706.08"
+        },
+        {
+          "columnId": 2333726692560772,
+          "columnTitle": "Amount Due",
+          "value": 1706.08,
+          "displayValue": "$1,706.08"
+        },
+        {
+          "columnId": 1207826785718148,
+          "columnTitle": "Customer",
+          "value": "FS8 - Canonsburg, PA",
+          "displayValue": "FS8 - Canonsburg, PA"
+        },
+        {
+          "columnId": 4458876091191172,
+          "columnTitle": "Email",
+          "value": "canonsburg.admin@fs8studio.com",
+          "displayValue": "canonsburg.admin@fs8studio.com"
+        },
+        {
+          "columnId": 1625982805168004,
+          "columnTitle": "Address",
+          "value": "3909 Washington Road",
+          "displayValue": "3909 Washington Road"
+        },
+        {
+          "columnId": 7255482339381124,
+          "columnTitle": "City",
+          "value": "Canonsburg",
+          "displayValue": "Canonsburg"
+        },
+        {
+          "columnId": 2751882712010628,
+          "columnTitle": "ST",
+          "value": "PA",
+          "displayValue": "PA"
+        },
+        {
+          "columnId": 7963226226773892,
+          "columnTitle": "Order Date",
+          "value": "2025-12-30"
+        },
+        {
+          "columnId": 5148476459667332,
+          "columnTitle": "Quotation Sent",
+          "value": true
+        },
+        {
+          "columnId": 5448514939342724,
+          "columnTitle": "Quotation Date",
+          "value": "2025-12-17"
+        },
+        {
+          "columnId": 7400276273352580,
+          "columnTitle": "Signed On",
+          "value": "2025-12-17"
+        },
+        {
+          "columnId": 2896676645982084,
+          "columnTitle": "Salesperson",
+          "value": "Derrick Pesterfield",
+          "displayValue": "Derrick Pesterfield"
+        },
+        {
+          "columnId": 6078650214731652,
+          "columnTitle": "Project Manager",
+          "value": "Christen Fiedler",
+          "displayValue": "Christen Fiedler"
+        },
+        {
+          "columnId": 2444737403637636,
+          "columnTitle": "Order Status",
+          "value": "Sales Order",
+          "displayValue": "Sales Order"
+        },
+        {
+          "columnId": 4356563934072708,
+          "columnTitle": "Expected Closing",
+          "value": "2025-12-26"
+        },
+        {
+          "columnId": 7587437039800196,
+          "columnTitle": "Estimated Opening Date",
+          "value": "2026-02-09"
+        },
+        {
+          "columnId": 1957937505587076,
+          "columnTitle": "Expected Revenue",
+          "value": 3412.16,
+          "displayValue": "$3,412.16"
+        },
+        {
+          "columnId": 4778776399138692,
+          "columnTitle": "Closed Date",
+          "value": "2025-12-23"
+        },
+        {
+          "columnId": 3283477092585348,
+          "columnTitle": "Lead Category",
+          "value": "Franchisees",
+          "displayValue": "Franchisees"
+        },
+        {
+          "columnId": 3985619227463556,
+          "columnTitle": "Tags",
+          "value": "Franchise",
+          "displayValue": "Franchise"
+        },
+        {
+          "columnId": 8710824134922116,
+          "columnTitle": "Payment Terms",
+          "value": "50% Down, Balance Net 15",
+          "displayValue": "50% Down, Balance Net 15"
+        },
+        {
+          "columnId": 5862706051239812,
+          "columnTitle": "Odoo Project Link",
+          "value": "https://siliconsignsut-odoo.odoo.com/web#id=4793&model=project.project&view_type=form&menu_id=375",
+          "displayValue": "https://siliconsignsut-odoo.odoo.com/web#id=4793&model=project.project&view_type=form&menu_id=375"
+        },
+        {
+          "columnId": 877078721023876,
+          "columnTitle": "Invoice Status",
+          "value": "To Invoice",
+          "displayValue": "To Invoice"
+        },
+        {
+          "columnId": 5668283081248644,
+          "columnTitle": "CRM Lead Created Date",
+          "value": "2025-12-15"
+        },
+        {
+          "columnId": 8933766580096900,
+          "columnTitle": "Order Confirmd In Current Week",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IF(AND([Order Date]@row >= TODAY() - WEEKDAY(TODAY()) + 1, [Order Date]@row <= TODAY() - WEEKDAY(TODAY()) + 7), \"Yes\", \"No\")"
+        },
+        {
+          "columnId": 137673557888900,
+          "columnTitle": "Order Confirmd In Current Month",
+          "value": "#INVALID VALUE",
+          "displayValue": "#INVALID VALUE",
+          "formula": "=IF(AND([Order Date]@row >= DATE(YEAR(TODAY()), MONTH(TODAY()), 1), [Order Date]@row <= DATE(YEAR(TODAY()), MONTH(TODAY()) + 1, 1) - 1), \"Yes\", \"No\")"
+        },
+        {
+          "columnId": 7572127305912196,
+          "columnTitle": "Pipeline Revenue",
+          "value": 3412.16,
+          "displayValue": "$3,412.16",
+          "formula": "=IF([Quote/SO Total]@row = \"\", [Expected Revenue]@row, [Quote/SO Total]@row)"
+        },
+        {
+          "columnId": 6526327016607620,
+          "columnTitle": "PIPELINE Invoice Date",
+          "value": "2026-02-09",
+          "formula": "=[Estimated Opening Date]@row"
+        },
+        {
+          "columnId": 5491592793902980,
+          "columnTitle": "PROJECTED Invoice Date",
+          "value": "2026-01-30",
+          "formula": "=IFERROR(INDEX({Project PROJECTED Invoice Date}, MATCH([Order Reference]@row, {Projects ORDER}, 0)), \"\")"
+        },
+        {
+          "columnId": 5875910762516356,
+          "columnTitle": "PROJECTED Invoice Month",
+          "value": 1,
+          "displayValue": "1",
+          "formula": "=IFERROR(MONTH([PROJECTED Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 1372311135145860,
+          "columnTitle": "PROJECTED Invoice Year",
+          "value": 2026,
+          "displayValue": "2026",
+          "formula": "=IFERROR(YEAR([PROJECTED Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 5037413416259460,
+          "columnTitle": "Pipeline Invoice Month",
+          "value": 2,
+          "displayValue": "2",
+          "formula": "=IFERROR(MONTH([PIPELINE Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 2785613602574212,
+          "columnTitle": "Pipeline Invoice Year",
+          "value": 2026,
+          "displayValue": "2026",
+          "formula": "=IFERROR(YEAR([PIPELINE Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 6305512346570628,
+          "columnTitle": "Is Closed?",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IF(OR([Opportunity Stage]@row = \"Closed Won\", [Opportunity Stage]@row = \"Closed Lost\"), \"Yes\", \"No\")"
+        },
+        {
+          "columnId": 167393121488772,
+          "columnTitle": "Closed Week",
+          "value": 52,
+          "displayValue": "52",
+          "formula": "=IFERROR(WEEKNUMBER([Closed Date]@row), \"\")"
+        },
+        {
+          "columnId": 8860163561443204,
+          "columnTitle": "Closed Month",
+          "value": 12,
+          "displayValue": "12",
+          "formula": "=IFERROR(MONTH([Closed Date]@row), \"\")"
+        },
+        {
+          "columnId": 275176771768196,
+          "columnTitle": "Closed Year",
+          "value": 2025,
+          "displayValue": "2025",
+          "formula": "=IFERROR(YEAR([Closed Date]@row), \"\")"
+        },
+        {
+          "columnId": 4041683775475588,
+          "columnTitle": "Closed Date Current Week",
+          "value": "No",
+          "displayValue": "No",
+          "formula": "=IFERROR(IF(WEEKNUMBER([Closed Date]@row) = WEEKNUMBER(TODAY()), \"Yes\", \"No\"), \"\")"
+        },
+        {
+          "columnId": 8545283402846084,
+          "columnTitle": "Closed Date Current Month",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IFERROR(IF(AND(MONTH([Closed Date]@row) = MONTH(TODAY()), YEAR([Closed Date]@row) = YEAR(TODAY())), \"Yes\", \"No\"), \"\")"
+        },
+        {
+          "columnId": 6380519557910404,
+          "columnTitle": "Closed Date Current Year",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IFERROR(IF(YEAR([Closed Date]@row) = YEAR(TODAY()), \"Yes\", \"No\"), \"\")"
+        },
+        {
+          "columnId": 716175369260932,
+          "columnTitle": "Project FInal Invoice Date",
+          "formula": "=IFERROR(INDEX({Invoice Date}, MATCH([Order Reference]@row, {Invoice ORDER}, 0), 1), \"\")"
+        },
+        {
+          "columnId": 6928646467702660,
+          "columnTitle": "Project Final Invoice Year",
+          "formula": "=IFERROR(YEAR([Project FInal Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 7237793024266116,
+          "columnTitle": "Released to Production"
+        },
+        {
+          "columnId": 409329618079620,
+          "columnTitle": "Project Type",
+          "value": "Interior",
+          "displayValue": "Interior",
+          "formula": "=IF(CONTAINS(\"Exterior\", Opportunity@row), \"Exterior\", IF(CONTAINS(\"Interior\", Opportunity@row), \"Interior\", IF(OR(CONTAINS(\"Construction\", Opportunity@row), CONTAINS(\"Temp\", Opportunity@row), CONTAINS(\"Banner\", Opportunity@row), CONTAINS(\"Window Graphics\", Opportunity@row), CONTAINS(\"Door Vinyl\", Opportunity@row)), \"Construction/Temp/Graphics\", \"Other\")))"
+        },
+        {
+          "columnId": 6850251138486148,
+          "columnTitle": "CRM Pipeline Stage",
+          "value": "7. Closed Won",
+          "displayValue": "7. Closed Won"
+        },
+        {
+          "columnId": 4574331191119748,
+          "columnTitle": "Project Status",
+          "value": "1. Planning",
+          "displayValue": "1. Planning",
+          "formula": "=IFERROR(INDEX({PROJECT Status}, MATCH([Order Reference]@row, {Projects ORDER}, 0)), \"\")"
+        },
+        {
+          "columnId": 2734193396895620,
+          "columnTitle": "Intake-Quoted TAT",
+          "value": 2,
+          "displayValue": "2",
+          "formula": "=[Quotation Date]@row - [CRM Lead Created Date]@row"
+        },
+        {
+          "columnId": 8363251041259396,
+          "columnTitle": "Quoted-Closed TAT",
+          "value": 5,
+          "displayValue": "5",
+          "formula": "=IFERROR(NETWORKDAYS([Quotation Date]@row, [Closed Date]@row), \"\")"
+        },
+        {
+          "columnId": 2702379908288388,
+          "columnTitle": "Closed-Production TAT",
+          "formula": "=IFERROR(NETWORKDAYS([Closed Date]@row, [Project FInal Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 4329555911987076,
+          "columnTitle": "Production-Invoiced TAT"
+        }
+      ]
+    },
+    {
+      "id": 3722234139971460,
+      "rowNumber": 5,
+      "cells": [
+        {
+          "columnId": 8878019901083524,
+          "columnTitle": "Order Reference",
+          "value": "SO44300",
+          "displayValue": "SO44300"
+        },
+        {
+          "columnId": 81926878875524,
+          "columnTitle": "Account Company",
+          "value": "F45 Training",
+          "displayValue": "F45 Training"
+        },
+        {
+          "columnId": 7647500535811972,
+          "columnTitle": "Opportunity",
+          "value": "F45 Training - Brooklyn, NY Interior Refresh",
+          "displayValue": "F45 Training - Brooklyn, NY Interior Refresh"
+        },
+        {
+          "columnId": 7259140466102148,
+          "columnTitle": "Opportunity Stage",
+          "value": "Closed Won",
+          "displayValue": "Closed Won"
+        },
+        {
+          "columnId": 447156772884356,
+          "columnTitle": "Project",
+          "value": "F45 Training - Brooklyn, NY Interior Refresh",
+          "displayValue": "F45 Training - Brooklyn, NY Interior Refresh"
+        },
+        {
+          "columnId": 6948337031008132,
+          "columnTitle": "Stage",
+          "value": "In Smartsheet",
+          "displayValue": "In Smartsheet"
+        },
+        {
+          "columnId": 1770776739139460,
+          "columnTitle": "Quote/SO Total",
+          "value": 2704.43,
+          "displayValue": "$2,704.43"
+        },
+        {
+          "columnId": 6837326319931268,
+          "columnTitle": "Amount Paid",
+          "value": 1372.21,
+          "displayValue": "$1,372.21"
+        },
+        {
+          "columnId": 2333726692560772,
+          "columnTitle": "Amount Due",
+          "value": 1332.22,
+          "displayValue": "$1,332.22"
+        },
+        {
+          "columnId": 1207826785718148,
+          "columnTitle": "Customer",
+          "value": "F45 Training - Brooklyn, NY",
+          "displayValue": "F45 Training - Brooklyn, NY"
+        },
+        {
+          "columnId": 4458876091191172,
+          "columnTitle": "Email",
+          "value": "parkslope@f45training.com",
+          "displayValue": "parkslope@f45training.com"
+        },
+        {
+          "columnId": 1625982805168004,
+          "columnTitle": "Address",
+          "value": "150 Fourth Avenue",
+          "displayValue": "150 Fourth Avenue"
+        },
+        {
+          "columnId": 7255482339381124,
+          "columnTitle": "City",
+          "value": "Brooklyn",
+          "displayValue": "Brooklyn"
+        },
+        {
+          "columnId": 2751882712010628,
+          "columnTitle": "ST",
+          "value": "NY",
+          "displayValue": "NY"
+        },
+        {
+          "columnId": 7963226226773892,
+          "columnTitle": "Order Date",
+          "value": "2025-12-30"
+        },
+        {
+          "columnId": 5148476459667332,
+          "columnTitle": "Quotation Sent",
+          "value": true
+        },
+        {
+          "columnId": 5448514939342724,
+          "columnTitle": "Quotation Date",
+          "value": "2025-12-29"
+        },
+        {
+          "columnId": 7400276273352580,
+          "columnTitle": "Signed On",
+          "value": "2025-12-29"
+        },
+        {
+          "columnId": 2896676645982084,
+          "columnTitle": "Salesperson",
+          "value": "Derrick Pesterfield",
+          "displayValue": "Derrick Pesterfield"
+        },
+        {
+          "columnId": 6078650214731652,
+          "columnTitle": "Project Manager",
+          "value": "Christen Fiedler",
+          "displayValue": "Christen Fiedler"
+        },
+        {
+          "columnId": 2444737403637636,
+          "columnTitle": "Order Status",
+          "value": "Sales Order",
+          "displayValue": "Sales Order"
+        },
+        {
+          "columnId": 4356563934072708,
+          "columnTitle": "Expected Closing",
+          "value": "2025-11-28"
+        },
+        {
+          "columnId": 7587437039800196,
+          "columnTitle": "Estimated Opening Date"
+        },
+        {
+          "columnId": 1957937505587076,
+          "columnTitle": "Expected Revenue",
+          "value": 8761.74,
+          "displayValue": "$8,761.74"
+        },
+        {
+          "columnId": 4778776399138692,
+          "columnTitle": "Closed Date",
+          "value": "2025-12-30"
+        },
+        {
+          "columnId": 3283477092585348,
+          "columnTitle": "Lead Category"
+        },
+        {
+          "columnId": 3985619227463556,
+          "columnTitle": "Tags",
+          "value": "Franchise",
+          "displayValue": "Franchise"
+        },
+        {
+          "columnId": 8710824134922116,
+          "columnTitle": "Payment Terms",
+          "value": "50% Down, Balance Due Upon Receipt",
+          "displayValue": "50% Down, Balance Due Upon Receipt"
+        },
+        {
+          "columnId": 5862706051239812,
+          "columnTitle": "Odoo Project Link",
+          "value": "https://siliconsignsut-odoo.odoo.com/web#id=4818&model=project.project&view_type=form&menu_id=375",
+          "displayValue": "https://siliconsignsut-odoo.odoo.com/web#id=4818&model=project.project&view_type=form&menu_id=375"
+        },
+        {
+          "columnId": 877078721023876,
+          "columnTitle": "Invoice Status",
+          "value": "To Invoice",
+          "displayValue": "To Invoice"
+        },
+        {
+          "columnId": 5668283081248644,
+          "columnTitle": "CRM Lead Created Date",
+          "value": "2025-08-05"
+        },
+        {
+          "columnId": 8933766580096900,
+          "columnTitle": "Order Confirmd In Current Week",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IF(AND([Order Date]@row >= TODAY() - WEEKDAY(TODAY()) + 1, [Order Date]@row <= TODAY() - WEEKDAY(TODAY()) + 7), \"Yes\", \"No\")"
+        },
+        {
+          "columnId": 137673557888900,
+          "columnTitle": "Order Confirmd In Current Month",
+          "value": "#INVALID VALUE",
+          "displayValue": "#INVALID VALUE",
+          "formula": "=IF(AND([Order Date]@row >= DATE(YEAR(TODAY()), MONTH(TODAY()), 1), [Order Date]@row <= DATE(YEAR(TODAY()), MONTH(TODAY()) + 1, 1) - 1), \"Yes\", \"No\")"
+        },
+        {
+          "columnId": 7572127305912196,
+          "columnTitle": "Pipeline Revenue",
+          "value": 2704.43,
+          "displayValue": "$2,704.43",
+          "formula": "=IF([Quote/SO Total]@row = \"\", [Expected Revenue]@row, [Quote/SO Total]@row)"
+        },
+        {
+          "columnId": 6526327016607620,
+          "columnTitle": "PIPELINE Invoice Date",
+          "formula": "=[Estimated Opening Date]@row"
+        },
+        {
+          "columnId": 5491592793902980,
+          "columnTitle": "PROJECTED Invoice Date",
+          "value": "2026-02-22",
+          "formula": "=IFERROR(INDEX({Project PROJECTED Invoice Date}, MATCH([Order Reference]@row, {Projects ORDER}, 0)), \"\")"
+        },
+        {
+          "columnId": 5875910762516356,
+          "columnTitle": "PROJECTED Invoice Month",
+          "value": 2,
+          "displayValue": "2",
+          "formula": "=IFERROR(MONTH([PROJECTED Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 1372311135145860,
+          "columnTitle": "PROJECTED Invoice Year",
+          "value": 2026,
+          "displayValue": "2026",
+          "formula": "=IFERROR(YEAR([PROJECTED Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 5037413416259460,
+          "columnTitle": "Pipeline Invoice Month",
+          "formula": "=IFERROR(MONTH([PIPELINE Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 2785613602574212,
+          "columnTitle": "Pipeline Invoice Year",
+          "formula": "=IFERROR(YEAR([PIPELINE Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 6305512346570628,
+          "columnTitle": "Is Closed?",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IF(OR([Opportunity Stage]@row = \"Closed Won\", [Opportunity Stage]@row = \"Closed Lost\"), \"Yes\", \"No\")"
+        },
+        {
+          "columnId": 167393121488772,
+          "columnTitle": "Closed Week",
+          "value": 1,
+          "displayValue": "1",
+          "formula": "=IFERROR(WEEKNUMBER([Closed Date]@row), \"\")"
+        },
+        {
+          "columnId": 8860163561443204,
+          "columnTitle": "Closed Month",
+          "value": 12,
+          "displayValue": "12",
+          "formula": "=IFERROR(MONTH([Closed Date]@row), \"\")"
+        },
+        {
+          "columnId": 275176771768196,
+          "columnTitle": "Closed Year",
+          "value": 2025,
+          "displayValue": "2025",
+          "formula": "=IFERROR(YEAR([Closed Date]@row), \"\")"
+        },
+        {
+          "columnId": 4041683775475588,
+          "columnTitle": "Closed Date Current Week",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IFERROR(IF(WEEKNUMBER([Closed Date]@row) = WEEKNUMBER(TODAY()), \"Yes\", \"No\"), \"\")"
+        },
+        {
+          "columnId": 8545283402846084,
+          "columnTitle": "Closed Date Current Month",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IFERROR(IF(AND(MONTH([Closed Date]@row) = MONTH(TODAY()), YEAR([Closed Date]@row) = YEAR(TODAY())), \"Yes\", \"No\"), \"\")"
+        },
+        {
+          "columnId": 6380519557910404,
+          "columnTitle": "Closed Date Current Year",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IFERROR(IF(YEAR([Closed Date]@row) = YEAR(TODAY()), \"Yes\", \"No\"), \"\")"
+        },
+        {
+          "columnId": 716175369260932,
+          "columnTitle": "Project FInal Invoice Date",
+          "formula": "=IFERROR(INDEX({Invoice Date}, MATCH([Order Reference]@row, {Invoice ORDER}, 0), 1), \"\")"
+        },
+        {
+          "columnId": 6928646467702660,
+          "columnTitle": "Project Final Invoice Year",
+          "formula": "=IFERROR(YEAR([Project FInal Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 7237793024266116,
+          "columnTitle": "Released to Production"
+        },
+        {
+          "columnId": 409329618079620,
+          "columnTitle": "Project Type",
+          "value": "Interior",
+          "displayValue": "Interior",
+          "formula": "=IF(CONTAINS(\"Exterior\", Opportunity@row), \"Exterior\", IF(CONTAINS(\"Interior\", Opportunity@row), \"Interior\", IF(OR(CONTAINS(\"Construction\", Opportunity@row), CONTAINS(\"Temp\", Opportunity@row), CONTAINS(\"Banner\", Opportunity@row), CONTAINS(\"Window Graphics\", Opportunity@row), CONTAINS(\"Door Vinyl\", Opportunity@row)), \"Construction/Temp/Graphics\", \"Other\")))"
+        },
+        {
+          "columnId": 6850251138486148,
+          "columnTitle": "CRM Pipeline Stage",
+          "value": "7. Closed Won",
+          "displayValue": "7. Closed Won"
+        },
+        {
+          "columnId": 4574331191119748,
+          "columnTitle": "Project Status",
+          "value": "0. NEW",
+          "displayValue": "0. NEW",
+          "formula": "=IFERROR(INDEX({PROJECT Status}, MATCH([Order Reference]@row, {Projects ORDER}, 0)), \"\")"
+        },
+        {
+          "columnId": 2734193396895620,
+          "columnTitle": "Intake-Quoted TAT",
+          "value": 146,
+          "displayValue": "146",
+          "formula": "=[Quotation Date]@row - [CRM Lead Created Date]@row"
+        },
+        {
+          "columnId": 8363251041259396,
+          "columnTitle": "Quoted-Closed TAT",
+          "value": 2,
+          "displayValue": "2",
+          "formula": "=IFERROR(NETWORKDAYS([Quotation Date]@row, [Closed Date]@row), \"\")"
+        },
+        {
+          "columnId": 2702379908288388,
+          "columnTitle": "Closed-Production TAT",
+          "formula": "=IFERROR(NETWORKDAYS([Closed Date]@row, [Project FInal Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 4329555911987076,
+          "columnTitle": "Production-Invoiced TAT"
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { SmartsheetAPI } from "../apis/smartsheet-api.js";
 import { z } from "zod";
 
-export function getDiscussionTools(server: McpServer, api: SmartsheetAPI) {
+export function getDiscussionTools(server: McpServer, api: SmartsheetAPI, allowWriteTools: boolean) {
 
     // Tool: Get discussions by sheet ID
     server.tool(
@@ -119,9 +119,10 @@ export function getDiscussionTools(server: McpServer, api: SmartsheetAPI) {
         }
     );
 
-    // Create row discussion
-    server.tool(
-        "create_row_discussion",
+    // Create row discussion (conditionally registered)
+    if (allowWriteTools) {
+        server.tool(
+            "create_row_discussion",
         "Creates a new discussion on a row",
         {
             sheetId: z.string().describe("ID of the sheet to create a discussion for"),
@@ -155,5 +156,8 @@ export function getDiscussionTools(server: McpServer, api: SmartsheetAPI) {
             }
         }
     );
+    } else {
+        console.warn("Create discussion operations are disabled. Set ALLOW_WRITE_TOOLS=true to enable them.");
+    }
 
 }

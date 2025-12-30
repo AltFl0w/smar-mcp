@@ -19,6 +19,10 @@ config();
 // Control whether deletion operations are enabled
 const allowDeleteTools = process.env.ALLOW_DELETE_TOOLS === 'true';
 console.info(`Delete operations are ${allowDeleteTools ? 'enabled' : 'disabled'}`);
+
+// Control whether write operations are enabled
+const allowWriteTools = process.env.ALLOW_WRITE_TOOLS === 'true';
+console.info(`Write operations are ${allowWriteTools ? 'enabled' : 'disabled'}`);
   
 // Initialize the MCP server
 const server = new McpServer({
@@ -30,25 +34,25 @@ const server = new McpServer({
 const api = new SmartsheetAPI(process.env.SMARTSHEET_API_KEY, process.env.SMARTSHEET_ENDPOINT);
 
 // Tool: Discussion tools
-getDiscussionTools(server, api);
+getDiscussionTools(server, api, allowWriteTools);
 
 // Tool: Folder tools
-getFolderTools(server, api);
+getFolderTools(server, api, allowWriteTools);
 
 // Tool: Search tools
 getSearchTools(server, api);
 
 // Tool: Sheet tools
-getSheetTools(server, api, allowDeleteTools);
+getSheetTools(server, api, allowDeleteTools, allowWriteTools);
 
 // Tool: Update Request tools
-getUpdateRequestTools(server, api);
+getUpdateRequestTools(server, api, allowWriteTools);
 
 // Tool: User tools
 getUserTools(server, api);
 
 // Tool: Workspace tools
-getWorkspaceTools(server, api); 
+getWorkspaceTools(server, api, allowWriteTools); 
 
 // Start the server
 async function main() {

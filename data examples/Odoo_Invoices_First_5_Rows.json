@@ -1,0 +1,935 @@
+{
+  "sourceUrl": "https://app.smartsheet.com/sheets/PPgFxc26P9Qgv4hV56r36HgP4V5WcPx7XXrQ8f41?view=grid",
+  "originalSheetId": "PPgFxc26P9Qgv4hV56r36HgP4V5WcPx7XXrQ8f41",
+  "originalSheetName": "Odoo_Invoices",
+  "totalRowsInOriginal": 2187,
+  "clonedRows": 5,
+  "columns": [
+    {
+      "id": 9001004582522756,
+      "title": "INVOICE",
+      "type": "TEXT_NUMBER",
+      "index": 0
+    },
+    {
+      "id": 6999467315076,
+      "title": "ORDER",
+      "type": "TEXT_NUMBER",
+      "index": 1
+    },
+    {
+      "id": 2825326573080452,
+      "title": "Customer",
+      "type": "TEXT_NUMBER",
+      "index": 2
+    },
+    {
+      "id": 4510599094685572,
+      "title": "Project Reference",
+      "type": "TEXT_NUMBER",
+      "index": 3
+    },
+    {
+      "id": 6762398908370820,
+      "title": "Invoice Date",
+      "type": "DATE",
+      "index": 4
+    },
+    {
+      "id": 196615696764804,
+      "title": "Due Date",
+      "type": "DATE",
+      "index": 5
+    },
+    {
+      "id": 2258799281000324,
+      "title": "Salesperson",
+      "type": "TEXT_NUMBER",
+      "index": 6
+    },
+    {
+      "id": 1132899374157700,
+      "title": "Total",
+      "type": "TEXT_NUMBER",
+      "index": 7
+    },
+    {
+      "id": 7689194868789124,
+      "title": "Invoice Type",
+      "type": "TEXT_NUMBER",
+      "index": 8
+    },
+    {
+      "id": 2059695334576004,
+      "title": "Status",
+      "type": "TEXT_NUMBER",
+      "index": 9
+    },
+    {
+      "id": 448449107677060,
+      "title": "Customer Tags",
+      "type": "TEXT_NUMBER",
+      "index": 10
+    },
+    {
+      "id": 7703387945258884,
+      "title": "Amount Due",
+      "type": "TEXT_NUMBER",
+      "index": 11
+    },
+    {
+      "id": 2073888411045764,
+      "title": "Payment Status",
+      "type": "TEXT_NUMBER",
+      "index": 12
+    },
+    {
+      "id": 3507709421506436,
+      "title": "Aged Days",
+      "type": "TEXT_NUMBER",
+      "index": 13
+    },
+    {
+      "id": 2221914458902404,
+      "title": "Aged Category",
+      "type": "TEXT_NUMBER",
+      "index": 14
+    },
+    {
+      "id": 6479096171417476,
+      "title": "Project Manager",
+      "type": "TEXT_NUMBER",
+      "index": 15
+    },
+    {
+      "id": 1556669012856708,
+      "title": "Invoice Week",
+      "type": "TEXT_NUMBER",
+      "index": 16
+    },
+    {
+      "id": 7951367054512004,
+      "title": "Invoice Month",
+      "type": "TEXT_NUMBER",
+      "index": 17
+    },
+    {
+      "id": 3314221743558532,
+      "title": "Invoice Quarter",
+      "type": "TEXT_NUMBER",
+      "index": 18
+    },
+    {
+      "id": 633017660034948,
+      "title": "Invoice Year",
+      "type": "TEXT_NUMBER",
+      "index": 19
+    },
+    {
+      "id": 7977115466813316,
+      "title": "Invoice Previous Week",
+      "type": "TEXT_NUMBER",
+      "index": 20
+    },
+    {
+      "id": 4266961867591556,
+      "title": "Invoice Current Month",
+      "type": "TEXT_NUMBER",
+      "index": 21
+    },
+    {
+      "id": 658766072336260,
+      "title": "Invoice Current Year",
+      "type": "TEXT_NUMBER",
+      "index": 22
+    },
+    {
+      "id": 5281484614881156,
+      "title": "Invoice Duplicate",
+      "type": "TEXT_NUMBER",
+      "index": 23
+    }
+  ],
+  "rows": [
+    {
+      "id": 1201357577981828,
+      "rowNumber": 1,
+      "cells": [
+        {
+          "columnId": 9001004582522756,
+          "columnTitle": "INVOICE",
+          "value": "INV/2205/04658",
+          "displayValue": "INV/2205/04658"
+        },
+        {
+          "columnId": 6999467315076,
+          "columnTitle": "ORDER",
+          "value": "SO42839",
+          "displayValue": "SO42839"
+        },
+        {
+          "columnId": 2825326573080452,
+          "columnTitle": "Customer",
+          "value": "Snooty Patootie - Knoxville, TN",
+          "displayValue": "Snooty Patootie - Knoxville, TN"
+        },
+        {
+          "columnId": 4510599094685572,
+          "columnTitle": "Project Reference",
+          "value": "Snooty Patootie - Knoxville, TN Exterior",
+          "displayValue": "Snooty Patootie - Knoxville, TN Exterior"
+        },
+        {
+          "columnId": 6762398908370820,
+          "columnTitle": "Invoice Date",
+          "value": "2025-12-30"
+        },
+        {
+          "columnId": 196615696764804,
+          "columnTitle": "Due Date",
+          "value": "2025-12-31"
+        },
+        {
+          "columnId": 2258799281000324,
+          "columnTitle": "Salesperson",
+          "value": "Derrick Pesterfield",
+          "displayValue": "Derrick Pesterfield"
+        },
+        {
+          "columnId": 1132899374157700,
+          "columnTitle": "Total",
+          "value": 14257.93,
+          "displayValue": "$14,257.93"
+        },
+        {
+          "columnId": 7689194868789124,
+          "columnTitle": "Invoice Type",
+          "value": "Regular",
+          "displayValue": "Regular"
+        },
+        {
+          "columnId": 2059695334576004,
+          "columnTitle": "Status",
+          "value": "Posted",
+          "displayValue": "Posted"
+        },
+        {
+          "columnId": 448449107677060,
+          "columnTitle": "Customer Tags",
+          "value": "Franchise",
+          "displayValue": "Franchise"
+        },
+        {
+          "columnId": 7703387945258884,
+          "columnTitle": "Amount Due",
+          "value": 8995.69,
+          "displayValue": "$8,995.69"
+        },
+        {
+          "columnId": 2073888411045764,
+          "columnTitle": "Payment Status",
+          "value": "Not Paid",
+          "displayValue": "Not Paid"
+        },
+        {
+          "columnId": 3507709421506436,
+          "columnTitle": "Aged Days",
+          "value": -1,
+          "displayValue": "-1",
+          "formula": "=IF([Payment Status]@row <> \"Paid\", TODAY() - [Due Date]@row)"
+        },
+        {
+          "columnId": 2221914458902404,
+          "columnTitle": "Aged Category",
+          "value": "A/R 0-30",
+          "displayValue": "A/R 0-30",
+          "formula": "=IF([Payment Status]@row = \"Paid\", \"Invoiced/Paid\", IF([Aged Days]@row <= 30, \"A/R 0-30\", IF(AND([Aged Days]@row > 30, [Aged Days]@row <= 60), \"A/R 31-60\", IF([Aged Days]@row >= 61, \"A/R 61+/Collections\", \"\"))))"
+        },
+        {
+          "columnId": 6479096171417476,
+          "columnTitle": "Project Manager",
+          "value": "Kate Getchell-Tiffany",
+          "displayValue": "Kate Getchell-Tiffany",
+          "formula": "=INDEX({Projects Project Manager}, MATCH(ORDER@row, {Projects ORDER}, 0))"
+        },
+        {
+          "columnId": 1556669012856708,
+          "columnTitle": "Invoice Week",
+          "value": 1,
+          "displayValue": "1",
+          "formula": "=IFERROR(WEEKNUMBER([Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 7951367054512004,
+          "columnTitle": "Invoice Month",
+          "value": 12,
+          "displayValue": "12",
+          "formula": "=MONTH([Invoice Date]@row)"
+        },
+        {
+          "columnId": 3314221743558532,
+          "columnTitle": "Invoice Quarter",
+          "value": 4,
+          "displayValue": "4",
+          "formula": "=ROUNDUP(MONTH([Invoice Date]@row) / 3, 0)"
+        },
+        {
+          "columnId": 633017660034948,
+          "columnTitle": "Invoice Year",
+          "value": 2025,
+          "displayValue": "2025",
+          "formula": "=YEAR([Invoice Date]@row)"
+        },
+        {
+          "columnId": 7977115466813316,
+          "columnTitle": "Invoice Previous Week"
+        },
+        {
+          "columnId": 4266961867591556,
+          "columnTitle": "Invoice Current Month",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IF(AND(MONTH([Invoice Date]@row) = MONTH(TODAY()), YEAR([Invoice Date]@row) = YEAR(TODAY())), \"Yes\", 0)"
+        },
+        {
+          "columnId": 658766072336260,
+          "columnTitle": "Invoice Current Year",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IF(YEAR([Invoice Date]@row) = YEAR(TODAY()), \"Yes\", \"No\")"
+        },
+        {
+          "columnId": 5281484614881156,
+          "columnTitle": "Invoice Duplicate",
+          "value": 1,
+          "displayValue": "1",
+          "formula": "=COUNTIF(INVOICE:INVOICE, INVOICE@row)"
+        }
+      ]
+    },
+    {
+      "id": 6191903417503620,
+      "rowNumber": 2,
+      "cells": [
+        {
+          "columnId": 9001004582522756,
+          "columnTitle": "INVOICE",
+          "value": "INV/2205/04651",
+          "displayValue": "INV/2205/04651"
+        },
+        {
+          "columnId": 6999467315076,
+          "columnTitle": "ORDER",
+          "value": "SO43591",
+          "displayValue": "SO43591"
+        },
+        {
+          "columnId": 2825326573080452,
+          "columnTitle": "Customer",
+          "value": "Crumbl - Clarksville, MD",
+          "displayValue": "Crumbl - Clarksville, MD"
+        },
+        {
+          "columnId": 4510599094685572,
+          "columnTitle": "Project Reference",
+          "value": "Crumbl - Clarksville, MD Interior Refresh",
+          "displayValue": "Crumbl - Clarksville, MD Interior Refresh"
+        },
+        {
+          "columnId": 6762398908370820,
+          "columnTitle": "Invoice Date",
+          "value": "2025-12-30"
+        },
+        {
+          "columnId": 196615696764804,
+          "columnTitle": "Due Date",
+          "value": "2025-12-31"
+        },
+        {
+          "columnId": 2258799281000324,
+          "columnTitle": "Salesperson",
+          "value": "Scott DeLuca",
+          "displayValue": "Scott DeLuca"
+        },
+        {
+          "columnId": 1132899374157700,
+          "columnTitle": "Total",
+          "value": 3783.85,
+          "displayValue": "$3,783.85"
+        },
+        {
+          "columnId": 7689194868789124,
+          "columnTitle": "Invoice Type",
+          "value": "Regular",
+          "displayValue": "Regular"
+        },
+        {
+          "columnId": 2059695334576004,
+          "columnTitle": "Status",
+          "value": "Posted",
+          "displayValue": "Posted"
+        },
+        {
+          "columnId": 448449107677060,
+          "columnTitle": "Customer Tags",
+          "value": "Crumbl Refresh",
+          "displayValue": "Crumbl Refresh"
+        },
+        {
+          "columnId": 7703387945258884,
+          "columnTitle": "Amount Due",
+          "value": 1855.92,
+          "displayValue": "$1,855.92"
+        },
+        {
+          "columnId": 2073888411045764,
+          "columnTitle": "Payment Status",
+          "value": "Not Paid",
+          "displayValue": "Not Paid"
+        },
+        {
+          "columnId": 3507709421506436,
+          "columnTitle": "Aged Days",
+          "value": -1,
+          "displayValue": "-1",
+          "formula": "=IF([Payment Status]@row <> \"Paid\", TODAY() - [Due Date]@row)"
+        },
+        {
+          "columnId": 2221914458902404,
+          "columnTitle": "Aged Category",
+          "value": "A/R 0-30",
+          "displayValue": "A/R 0-30",
+          "formula": "=IF([Payment Status]@row = \"Paid\", \"Invoiced/Paid\", IF([Aged Days]@row <= 30, \"A/R 0-30\", IF(AND([Aged Days]@row > 30, [Aged Days]@row <= 60), \"A/R 31-60\", IF([Aged Days]@row >= 61, \"A/R 61+/Collections\", \"\"))))"
+        },
+        {
+          "columnId": 6479096171417476,
+          "columnTitle": "Project Manager",
+          "value": "Cynthia Pasquier",
+          "displayValue": "Cynthia Pasquier",
+          "formula": "=INDEX({Projects Project Manager}, MATCH(ORDER@row, {Projects ORDER}, 0))"
+        },
+        {
+          "columnId": 1556669012856708,
+          "columnTitle": "Invoice Week",
+          "value": 1,
+          "displayValue": "1",
+          "formula": "=IFERROR(WEEKNUMBER([Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 7951367054512004,
+          "columnTitle": "Invoice Month",
+          "value": 12,
+          "displayValue": "12",
+          "formula": "=MONTH([Invoice Date]@row)"
+        },
+        {
+          "columnId": 3314221743558532,
+          "columnTitle": "Invoice Quarter",
+          "value": 4,
+          "displayValue": "4",
+          "formula": "=ROUNDUP(MONTH([Invoice Date]@row) / 3, 0)"
+        },
+        {
+          "columnId": 633017660034948,
+          "columnTitle": "Invoice Year",
+          "value": 2025,
+          "displayValue": "2025",
+          "formula": "=YEAR([Invoice Date]@row)"
+        },
+        {
+          "columnId": 7977115466813316,
+          "columnTitle": "Invoice Previous Week"
+        },
+        {
+          "columnId": 4266961867591556,
+          "columnTitle": "Invoice Current Month",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IF(AND(MONTH([Invoice Date]@row) = MONTH(TODAY()), YEAR([Invoice Date]@row) = YEAR(TODAY())), \"Yes\", 0)"
+        },
+        {
+          "columnId": 658766072336260,
+          "columnTitle": "Invoice Current Year",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IF(YEAR([Invoice Date]@row) = YEAR(TODAY()), \"Yes\", \"No\")"
+        },
+        {
+          "columnId": 5281484614881156,
+          "columnTitle": "Invoice Duplicate",
+          "value": 1,
+          "displayValue": "1",
+          "formula": "=COUNTIF(INVOICE:INVOICE, INVOICE@row)"
+        }
+      ]
+    },
+    {
+      "id": 3940103603818372,
+      "rowNumber": 3,
+      "cells": [
+        {
+          "columnId": 9001004582522756,
+          "columnTitle": "INVOICE",
+          "value": "INV/2205/04650",
+          "displayValue": "INV/2205/04650"
+        },
+        {
+          "columnId": 6999467315076,
+          "columnTitle": "ORDER",
+          "value": "SO42340",
+          "displayValue": "SO42340"
+        },
+        {
+          "columnId": 2825326573080452,
+          "columnTitle": "Customer",
+          "value": "Crumbl - Houma, LA, Cindy Luke",
+          "displayValue": "Crumbl - Houma, LA, Cindy Luke"
+        },
+        {
+          "columnId": 4510599094685572,
+          "columnTitle": "Project Reference",
+          "value": "Crumbl - Houma, LA Interior Refresh",
+          "displayValue": "Crumbl - Houma, LA Interior Refresh"
+        },
+        {
+          "columnId": 6762398908370820,
+          "columnTitle": "Invoice Date",
+          "value": "2025-12-30"
+        },
+        {
+          "columnId": 196615696764804,
+          "columnTitle": "Due Date",
+          "value": "2025-12-31"
+        },
+        {
+          "columnId": 2258799281000324,
+          "columnTitle": "Salesperson",
+          "value": "Scott DeLuca",
+          "displayValue": "Scott DeLuca"
+        },
+        {
+          "columnId": 1132899374157700,
+          "columnTitle": "Total",
+          "value": 4647.2,
+          "displayValue": "$4,647.20"
+        },
+        {
+          "columnId": 7689194868789124,
+          "columnTitle": "Invoice Type",
+          "value": "Regular",
+          "displayValue": "Regular"
+        },
+        {
+          "columnId": 2059695334576004,
+          "columnTitle": "Status",
+          "value": "Posted",
+          "displayValue": "Posted"
+        },
+        {
+          "columnId": 448449107677060,
+          "columnTitle": "Customer Tags",
+          "value": "Crumbl Refresh",
+          "displayValue": "Crumbl Refresh"
+        },
+        {
+          "columnId": 7703387945258884,
+          "columnTitle": "Amount Due",
+          "value": 2298.6,
+          "displayValue": "$2,298.60"
+        },
+        {
+          "columnId": 2073888411045764,
+          "columnTitle": "Payment Status",
+          "value": "Not Paid",
+          "displayValue": "Not Paid"
+        },
+        {
+          "columnId": 3507709421506436,
+          "columnTitle": "Aged Days",
+          "value": -1,
+          "displayValue": "-1",
+          "formula": "=IF([Payment Status]@row <> \"Paid\", TODAY() - [Due Date]@row)"
+        },
+        {
+          "columnId": 2221914458902404,
+          "columnTitle": "Aged Category",
+          "value": "A/R 0-30",
+          "displayValue": "A/R 0-30",
+          "formula": "=IF([Payment Status]@row = \"Paid\", \"Invoiced/Paid\", IF([Aged Days]@row <= 30, \"A/R 0-30\", IF(AND([Aged Days]@row > 30, [Aged Days]@row <= 60), \"A/R 31-60\", IF([Aged Days]@row >= 61, \"A/R 61+/Collections\", \"\"))))"
+        },
+        {
+          "columnId": 6479096171417476,
+          "columnTitle": "Project Manager",
+          "value": "Cynthia Pasquier",
+          "displayValue": "Cynthia Pasquier",
+          "formula": "=INDEX({Projects Project Manager}, MATCH(ORDER@row, {Projects ORDER}, 0))"
+        },
+        {
+          "columnId": 1556669012856708,
+          "columnTitle": "Invoice Week",
+          "value": 1,
+          "displayValue": "1",
+          "formula": "=IFERROR(WEEKNUMBER([Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 7951367054512004,
+          "columnTitle": "Invoice Month",
+          "value": 12,
+          "displayValue": "12",
+          "formula": "=MONTH([Invoice Date]@row)"
+        },
+        {
+          "columnId": 3314221743558532,
+          "columnTitle": "Invoice Quarter",
+          "value": 4,
+          "displayValue": "4",
+          "formula": "=ROUNDUP(MONTH([Invoice Date]@row) / 3, 0)"
+        },
+        {
+          "columnId": 633017660034948,
+          "columnTitle": "Invoice Year",
+          "value": 2025,
+          "displayValue": "2025",
+          "formula": "=YEAR([Invoice Date]@row)"
+        },
+        {
+          "columnId": 7977115466813316,
+          "columnTitle": "Invoice Previous Week"
+        },
+        {
+          "columnId": 4266961867591556,
+          "columnTitle": "Invoice Current Month",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IF(AND(MONTH([Invoice Date]@row) = MONTH(TODAY()), YEAR([Invoice Date]@row) = YEAR(TODAY())), \"Yes\", 0)"
+        },
+        {
+          "columnId": 658766072336260,
+          "columnTitle": "Invoice Current Year",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IF(YEAR([Invoice Date]@row) = YEAR(TODAY()), \"Yes\", \"No\")"
+        },
+        {
+          "columnId": 5281484614881156,
+          "columnTitle": "Invoice Duplicate",
+          "value": 1,
+          "displayValue": "1",
+          "formula": "=COUNTIF(INVOICE:INVOICE, INVOICE@row)"
+        }
+      ]
+    },
+    {
+      "id": 8443703231188868,
+      "rowNumber": 4,
+      "cells": [
+        {
+          "columnId": 9001004582522756,
+          "columnTitle": "INVOICE",
+          "value": "INV/2205/04649",
+          "displayValue": "INV/2205/04649"
+        },
+        {
+          "columnId": 6999467315076,
+          "columnTitle": "ORDER",
+          "value": "SO44490",
+          "displayValue": "SO44490"
+        },
+        {
+          "columnId": 2825326573080452,
+          "columnTitle": "Customer",
+          "value": "Tierra Encantada - Kansas City, MO",
+          "displayValue": "Tierra Encantada - Kansas City, MO"
+        },
+        {
+          "columnId": 4510599094685572,
+          "columnTitle": "Project Reference",
+          "value": "Tierra Encantada - Kansas City, MO (Brookside) Exterior",
+          "displayValue": "Tierra Encantada - Kansas City, MO (Brookside) Exterior"
+        },
+        {
+          "columnId": 6762398908370820,
+          "columnTitle": "Invoice Date",
+          "value": "2025-12-30"
+        },
+        {
+          "columnId": 196615696764804,
+          "columnTitle": "Due Date",
+          "value": "2026-01-29"
+        },
+        {
+          "columnId": 2258799281000324,
+          "columnTitle": "Salesperson",
+          "value": "Scott DeLuca",
+          "displayValue": "Scott DeLuca"
+        },
+        {
+          "columnId": 1132899374157700,
+          "columnTitle": "Total",
+          "value": 4195.64,
+          "displayValue": "$4,195.64"
+        },
+        {
+          "columnId": 7689194868789124,
+          "columnTitle": "Invoice Type",
+          "value": "Regular",
+          "displayValue": "Regular"
+        },
+        {
+          "columnId": 2059695334576004,
+          "columnTitle": "Status",
+          "value": "Posted",
+          "displayValue": "Posted"
+        },
+        {
+          "columnId": 448449107677060,
+          "columnTitle": "Customer Tags",
+          "value": "Franchise",
+          "displayValue": "Franchise"
+        },
+        {
+          "columnId": 7703387945258884,
+          "columnTitle": "Amount Due",
+          "value": 4195.64,
+          "displayValue": "$4,195.64"
+        },
+        {
+          "columnId": 2073888411045764,
+          "columnTitle": "Payment Status",
+          "value": "Not Paid",
+          "displayValue": "Not Paid"
+        },
+        {
+          "columnId": 3507709421506436,
+          "columnTitle": "Aged Days",
+          "value": -30,
+          "displayValue": "-30",
+          "formula": "=IF([Payment Status]@row <> \"Paid\", TODAY() - [Due Date]@row)"
+        },
+        {
+          "columnId": 2221914458902404,
+          "columnTitle": "Aged Category",
+          "value": "A/R 0-30",
+          "displayValue": "A/R 0-30",
+          "formula": "=IF([Payment Status]@row = \"Paid\", \"Invoiced/Paid\", IF([Aged Days]@row <= 30, \"A/R 0-30\", IF(AND([Aged Days]@row > 30, [Aged Days]@row <= 60), \"A/R 31-60\", IF([Aged Days]@row >= 61, \"A/R 61+/Collections\", \"\"))))"
+        },
+        {
+          "columnId": 6479096171417476,
+          "columnTitle": "Project Manager",
+          "value": "Kate Getchell-Tiffany",
+          "displayValue": "Kate Getchell-Tiffany",
+          "formula": "=INDEX({Projects Project Manager}, MATCH(ORDER@row, {Projects ORDER}, 0))"
+        },
+        {
+          "columnId": 1556669012856708,
+          "columnTitle": "Invoice Week",
+          "value": 1,
+          "displayValue": "1",
+          "formula": "=IFERROR(WEEKNUMBER([Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 7951367054512004,
+          "columnTitle": "Invoice Month",
+          "value": 12,
+          "displayValue": "12",
+          "formula": "=MONTH([Invoice Date]@row)"
+        },
+        {
+          "columnId": 3314221743558532,
+          "columnTitle": "Invoice Quarter",
+          "value": 4,
+          "displayValue": "4",
+          "formula": "=ROUNDUP(MONTH([Invoice Date]@row) / 3, 0)"
+        },
+        {
+          "columnId": 633017660034948,
+          "columnTitle": "Invoice Year",
+          "value": 2025,
+          "displayValue": "2025",
+          "formula": "=YEAR([Invoice Date]@row)"
+        },
+        {
+          "columnId": 7977115466813316,
+          "columnTitle": "Invoice Previous Week"
+        },
+        {
+          "columnId": 4266961867591556,
+          "columnTitle": "Invoice Current Month",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IF(AND(MONTH([Invoice Date]@row) = MONTH(TODAY()), YEAR([Invoice Date]@row) = YEAR(TODAY())), \"Yes\", 0)"
+        },
+        {
+          "columnId": 658766072336260,
+          "columnTitle": "Invoice Current Year",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IF(YEAR([Invoice Date]@row) = YEAR(TODAY()), \"Yes\", \"No\")"
+        },
+        {
+          "columnId": 5281484614881156,
+          "columnTitle": "Invoice Duplicate",
+          "value": 1,
+          "displayValue": "1",
+          "formula": "=COUNTIF(INVOICE:INVOICE, INVOICE@row)"
+        }
+      ]
+    },
+    {
+      "id": 3795309518851972,
+      "rowNumber": 5,
+      "cells": [
+        {
+          "columnId": 9001004582522756,
+          "columnTitle": "INVOICE",
+          "value": "INV/2205/04648",
+          "displayValue": "INV/2205/04648"
+        },
+        {
+          "columnId": 6999467315076,
+          "columnTitle": "ORDER",
+          "value": "SO44891",
+          "displayValue": "SO44891"
+        },
+        {
+          "columnId": 2825326573080452,
+          "columnTitle": "Customer",
+          "value": "Image Studios - Maitland, FL",
+          "displayValue": "Image Studios - Maitland, FL"
+        },
+        {
+          "columnId": 4510599094685572,
+          "columnTitle": "Project Reference",
+          "value": "Image Studios - Maitland, FL Construction Graphics",
+          "displayValue": "Image Studios - Maitland, FL Construction Graphics"
+        },
+        {
+          "columnId": 6762398908370820,
+          "columnTitle": "Invoice Date",
+          "value": "2025-12-30"
+        },
+        {
+          "columnId": 196615696764804,
+          "columnTitle": "Due Date",
+          "value": "2025-12-31"
+        },
+        {
+          "columnId": 2258799281000324,
+          "columnTitle": "Salesperson",
+          "value": "Scott DeLuca",
+          "displayValue": "Scott DeLuca"
+        },
+        {
+          "columnId": 1132899374157700,
+          "columnTitle": "Total",
+          "value": 782.96,
+          "displayValue": "$782.96"
+        },
+        {
+          "columnId": 7689194868789124,
+          "columnTitle": "Invoice Type",
+          "value": "Regular",
+          "displayValue": "Regular"
+        },
+        {
+          "columnId": 2059695334576004,
+          "columnTitle": "Status",
+          "value": "Posted",
+          "displayValue": "Posted"
+        },
+        {
+          "columnId": 448449107677060,
+          "columnTitle": "Customer Tags",
+          "value": "Franchise",
+          "displayValue": "Franchise"
+        },
+        {
+          "columnId": 7703387945258884,
+          "columnTitle": "Amount Due",
+          "value": 391.48,
+          "displayValue": "$391.48"
+        },
+        {
+          "columnId": 2073888411045764,
+          "columnTitle": "Payment Status",
+          "value": "Not Paid",
+          "displayValue": "Not Paid"
+        },
+        {
+          "columnId": 3507709421506436,
+          "columnTitle": "Aged Days",
+          "value": -1,
+          "displayValue": "-1",
+          "formula": "=IF([Payment Status]@row <> \"Paid\", TODAY() - [Due Date]@row)"
+        },
+        {
+          "columnId": 2221914458902404,
+          "columnTitle": "Aged Category",
+          "value": "A/R 0-30",
+          "displayValue": "A/R 0-30",
+          "formula": "=IF([Payment Status]@row = \"Paid\", \"Invoiced/Paid\", IF([Aged Days]@row <= 30, \"A/R 0-30\", IF(AND([Aged Days]@row > 30, [Aged Days]@row <= 60), \"A/R 31-60\", IF([Aged Days]@row >= 61, \"A/R 61+/Collections\", \"\"))))"
+        },
+        {
+          "columnId": 6479096171417476,
+          "columnTitle": "Project Manager",
+          "value": "Jorge Pardo",
+          "displayValue": "Jorge Pardo",
+          "formula": "=INDEX({Projects Project Manager}, MATCH(ORDER@row, {Projects ORDER}, 0))"
+        },
+        {
+          "columnId": 1556669012856708,
+          "columnTitle": "Invoice Week",
+          "value": 1,
+          "displayValue": "1",
+          "formula": "=IFERROR(WEEKNUMBER([Invoice Date]@row), \"\")"
+        },
+        {
+          "columnId": 7951367054512004,
+          "columnTitle": "Invoice Month",
+          "value": 12,
+          "displayValue": "12",
+          "formula": "=MONTH([Invoice Date]@row)"
+        },
+        {
+          "columnId": 3314221743558532,
+          "columnTitle": "Invoice Quarter",
+          "value": 4,
+          "displayValue": "4",
+          "formula": "=ROUNDUP(MONTH([Invoice Date]@row) / 3, 0)"
+        },
+        {
+          "columnId": 633017660034948,
+          "columnTitle": "Invoice Year",
+          "value": 2025,
+          "displayValue": "2025",
+          "formula": "=YEAR([Invoice Date]@row)"
+        },
+        {
+          "columnId": 7977115466813316,
+          "columnTitle": "Invoice Previous Week"
+        },
+        {
+          "columnId": 4266961867591556,
+          "columnTitle": "Invoice Current Month",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IF(AND(MONTH([Invoice Date]@row) = MONTH(TODAY()), YEAR([Invoice Date]@row) = YEAR(TODAY())), \"Yes\", 0)"
+        },
+        {
+          "columnId": 658766072336260,
+          "columnTitle": "Invoice Current Year",
+          "value": "Yes",
+          "displayValue": "Yes",
+          "formula": "=IF(YEAR([Invoice Date]@row) = YEAR(TODAY()), \"Yes\", \"No\")"
+        },
+        {
+          "columnId": 5281484614881156,
+          "columnTitle": "Invoice Duplicate",
+          "value": 1,
+          "displayValue": "1",
+          "formula": "=COUNTIF(INVOICE:INVOICE, INVOICE@row)"
+        }
+      ]
+    }
+  ]
+}

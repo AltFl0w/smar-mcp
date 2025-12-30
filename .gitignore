@@ -7,6 +7,7 @@ build/
 dist/
 out/
 *.tsbuildinfo
+.history
 
 # Environment variables
 .env

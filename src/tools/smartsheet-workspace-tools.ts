@@ -2,7 +2,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { SmartsheetAPI } from "../apis/smartsheet-api.js";
 import { z } from "zod";
 
-export function getWorkspaceTools(server: McpServer, api: SmartsheetAPI) {
+export function getWorkspaceTools(server: McpServer, api: SmartsheetAPI, allowWriteTools: boolean) {
 
     // Tool: Get Workspaces
     server.tool(
@@ -72,9 +72,10 @@ export function getWorkspaceTools(server: McpServer, api: SmartsheetAPI) {
         }
     );
     
-    // Tool: Create workspace
-    server.tool(
-        "create_workspace",
+    // Tool: Create workspace (conditionally registered)
+    if (allowWriteTools) {
+        server.tool(
+            "create_workspace",
         "Creates a new workspace",
         {
           workspaceName: z.string().describe("The name of the new workspace")
@@ -106,5 +107,8 @@ export function getWorkspaceTools(server: McpServer, api: SmartsheetAPI) {
           }
         }
     );
+    } else {
+        console.warn("Create workspace operations are disabled. Set ALLOW_WRITE_TOOLS=true to enable them.");
+    }
 
 }

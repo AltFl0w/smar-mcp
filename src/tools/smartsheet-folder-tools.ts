@@ -2,7 +2,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { SmartsheetAPI } from "../apis/smartsheet-api.js";
 import { z } from "zod";
 
-export function getFolderTools(server: McpServer, api: SmartsheetAPI) {
+export function getFolderTools(server: McpServer, api: SmartsheetAPI, allowWriteTools: boolean) {
 
     // Tool: Get Folder
     server.tool(
@@ -39,9 +39,10 @@ export function getFolderTools(server: McpServer, api: SmartsheetAPI) {
         }
     );
 
-    // Tool: Create Folder in folder
-    server.tool(
-        "create_folder",
+    // Tool: Create Folder in folder (conditionally registered)
+    if (allowWriteTools) {
+        server.tool(
+            "create_folder",
         "Creates a new folder in a folder",
         {
         folderId: z.string().describe("The ID of the folder to create the folder in"),
@@ -74,10 +75,14 @@ export function getFolderTools(server: McpServer, api: SmartsheetAPI) {
         }
         }
     );
+    } else {
+        console.warn("Create folder operations are disabled. Set ALLOW_WRITE_TOOLS=true to enable them.");
+    }
 
-    // Tool: Create Folder in workspace
-    server.tool(
-        "create_workspace_folder",
+    // Tool: Create Folder in workspace (conditionally registered)
+    if (allowWriteTools) {
+        server.tool(
+            "create_workspace_folder",
         "Creates a new folder in a workspace",
         {
         workspaceId: z.string().describe("The ID of the workspace to create the folder in"),
@@ -110,5 +115,8 @@ export function getFolderTools(server: McpServer, api: SmartsheetAPI) {
         }
         }
     );
+    } else {
+        console.warn("Create workspace folder operations are disabled. Set ALLOW_WRITE_TOOLS=true to enable them.");
+    }
 
 }

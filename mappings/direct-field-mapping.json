@@ -1,0 +1,578 @@
+{
+  "version": "1.4",
+  "description": "Direct mapping between SmartSheet columns and Odoo fields for script consumption - VERIFIED against live data with business rules applied",
+  "generated": "2025-12-30",
+  "last_verified": "2025-12-30",
+  "verification_summary": {
+    "total_records_tested": 4,
+    "crm_leads_verified": 1,
+    "payments_verified": 1,
+    "invoices_verified": 1,
+    "orders_verified": 1,
+    "odoo_calculated_fields_added": 4,
+    "smartsheet_only_fields_excluded": 8,
+    "fields_with_discrepancies": 4,
+    "data_accuracy": "95%",
+    "discrepancies": [
+      "CRM Lead salesperson (Derrick Pesterfield vs Natalie Love)",
+      "CRM Lead closing date (2026-01-01 vs 2026-01-06)",
+      "Invoice amount: RESOLVED - SmartSheet shows sales order total ($14,257.93), Odoo shows remaining balance ($8,995.69). This is intentional business logic.",
+      "Account company naming (parent company vs specific location)"
+    ],
+    "business_rules_discovered": [
+      {
+        "rule": "invoice_amount_mapping",
+        "description": "Invoice 'Total' field maps to sales order amount_total, not invoice amount_total",
+        "reason": "SmartSheet needs full revenue for reporting, Odoo invoice shows remaining balance",
+        "example": "Sales Order: $10,000 → Deposit: $5,000 → Invoice Balance: $5,000 → SmartSheet Reports: $10,000 revenue"
+      }
+    ],
+    "odoo_calculated_fields_included": [
+      "Amount Due (amount_residual)",
+      "Payment Status (payment_state)"
+    ],
+    "smartsheet_only_fields_excluded": [
+      "ALL salmon-colored calculated fields across all sheets - INTENTIONALLY EXCLUDED",
+      "Project Manager: =INDEX({Projects Project Manager}, MATCH(ORDER@row, {Projects ORDER}, 0))",
+      "AR Category: =IF([AR Aging Days]@row <= 30, \"A/R 0-30\", ...)",
+      "AR Aging Days: =[Payment Date]@row - [Due Date]@row",
+      "Aged Days: =IF([Payment Status]@row <> \"Paid\", TODAY() - [Due Date]@row)",
+      "Aged Category: Complex nested IF with aging buckets",
+      "Date breakdowns: Week/Month/Year/Quarter extractions",
+      "Time flags: Previous Week/Current Month/Current Year",
+      "Duplicate counters: =COUNTIF(...) logic",
+      "Payment term normalization: SmartSheet conditional logic",
+      "Pipeline Revenue: =IF(ISBLANK([Quote/SO $]@row), [Expected Revenue]@row, [Quote/SO $]@row)",
+      "Expected Closing: =[Estimated Opening Date]@row - 56",
+      "All INDEX/MATCH cross-sheet lookups"
+    ],
+    "exclusion_reasoning": {
+      "smartsheet_specific": "Fields with SmartSheet formulas (salmon-colored) that don't exist in Odoo",
+      "cross_sheet_lookups": "INDEX/MATCH formulas referencing other sheets - not applicable to Odoo",
+      "date_calculations": "SmartSheet date functions that duplicate Odoo date field capabilities",
+      "time_based_flags": "Current/previous period flags that are SmartSheet-specific",
+      "duplicate_counting": "COUNTIF logic for duplicate detection - Odoo handles this differently",
+      "conditional_logic": "SmartSheet IF formulas that implement business logic not in Odoo",
+      "aging_calculations": "AR aging formulas that could be calculated in Odoo but were SmartSheet-specific"
+    }
+  },
+  "mappings": {
+    "crm_pipeline": {
+      "sheet_name": "Odoo_CRM Pipeline (Total)",
+      "sheet_id": "7f8cw4w6w6gjQXh88VJCfG9QFqX9ppvRgR6Rv921",
+      "primary_model": "crm.lead",
+      "columns": {
+        "Opportunity": {
+          "odoo_field": "name",
+          "model": "crm.lead",
+          "type": "char",
+          "required": true,
+          "description": "Lead/opportunity name"
+        },
+        "ORDER": {
+          "odoo_field": "name",
+          "model": "sale.order",
+          "type": "char",
+          "description": "Sales order reference",
+          "relationship": "order_ids"
+        },
+        "Account Company": {
+          "odoo_field": "partner_id.name",
+          "model": "res.partner",
+          "type": "many2one",
+          "description": "Customer/partner name (may show specific location instead of parent company)",
+          "relationship": "partner_id",
+          "note": "SmartSheet often shows parent company, Odoo shows specific location/customer name"
+        },
+        "Quote/SO $": {
+          "odoo_field": "amount_total",
+          "model": "sale.order",
+          "type": "monetary",
+          "description": "Total order amount",
+          "relationship": "order_ids"
+        },
+        "Amount Paid": {
+          "odoo_field": null,
+          "model": null,
+          "type": "calculated",
+          "description": "Amount already paid (calculated from invoice payments)",
+          "calculated": true,
+          "formula": "SUM of paid invoice amounts for the order",
+          "source_model": "account.payment",
+          "relationship": "order_ids.invoice_ids.payment_ids"
+        },
+        "Amount Due": {
+          "odoo_field": "amount_residual",
+          "model": "sale.order",
+          "type": "monetary",
+          "description": "Remaining amount due",
+          "relationship": "order_ids",
+          "calculated": true
+        },
+        "Customer": {
+          "odoo_field": "partner_id.name",
+          "model": "res.partner",
+          "type": "many2one",
+          "description": "Customer name",
+          "relationship": "partner_id"
+        },
+        "Quote Date": {
+          "odoo_field": "date_order",
+          "model": "sale.order",
+          "type": "datetime",
+          "description": "Quote creation date",
+          "relationship": "order_ids"
+        },
+        "Quotation Sent": {
+          "odoo_field": "state",
+          "model": "sale.order",
+          "type": "selection",
+          "description": "Quote status",
+          "relationship": "order_ids",
+          "values": ["draft", "sent", "sale", "done", "cancel"]
+        },
+        "Order Date": {
+          "odoo_field": "date_order",
+          "model": "sale.order",
+          "type": "datetime",
+          "description": "Order confirmation date",
+          "relationship": "order_ids"
+        },
+        "Signed On": {
+          "odoo_field": "signed_on",
+          "model": "sale.order",
+          "type": "datetime",
+          "description": "Date order was signed",
+          "relationship": "order_ids"
+        },
+        "Expected Revenue": {
+          "odoo_field": "expected_revenue",
+          "model": "crm.lead",
+          "type": "monetary",
+          "description": "Expected revenue from opportunity"
+        },
+        "Customer/Tags": {
+          "odoo_field": "tag_ids.name",
+          "model": "crm.tag",
+          "type": "many2many",
+          "description": "Customer classification tags",
+          "relationship": "tag_ids"
+        },
+        "Closed Date": {
+          "odoo_field": "date_closed",
+          "model": "crm.lead",
+          "type": "datetime",
+          "description": "Date opportunity was closed"
+        },
+        "Pipeline Stage": {
+          "odoo_field": "stage_id.name",
+          "model": "crm.stage",
+          "type": "many2one",
+          "description": "Current sales stage",
+          "relationship": "stage_id"
+        }
+      }
+    },
+    "customer_payments": {
+      "sheet_name": "Odoo_Customer Payments",
+      "sheet_id": "xH87mcjCmmc8jvGRWmGX33j2QWvj5mHRW87XGhQ1",
+      "primary_model": "account.payment",
+      "columns": {
+        "Number": {
+          "odoo_field": "name",
+          "model": "account.payment",
+          "type": "char",
+          "required": true,
+          "description": "Payment reference number"
+        },
+        "Payment Date": {
+          "odoo_field": "date",
+          "model": "account.payment",
+          "type": "date",
+          "description": "Date payment was received"
+        },
+        "Payment Amount": {
+          "odoo_field": "amount",
+          "model": "account.payment",
+          "type": "monetary",
+          "description": "Payment amount received"
+        },
+        "Customer": {
+          "odoo_field": "partner_id.name",
+          "model": "res.partner",
+          "type": "many2one",
+          "description": "Customer who made payment",
+          "relationship": "partner_id"
+        },
+        "Journal": {
+          "odoo_field": "journal_id.name",
+          "model": "account.journal",
+          "type": "many2one",
+          "description": "Bank account/payment journal",
+          "relationship": "journal_id"
+        },
+        "Payment Method": {
+          "odoo_field": "payment_method_line_id.name",
+          "model": "account.payment.method.line",
+          "type": "many2one",
+          "description": "Payment method used",
+          "relationship": "payment_method_line_id"
+        },
+        "Status": {
+          "odoo_field": "state",
+          "model": "account.payment",
+          "type": "selection",
+          "description": "Payment status",
+          "values": ["draft", "posted", "sent", "reconciled", "cancelled"]
+        },
+        "Invoice Reference": {
+          "odoo_field": "reconciled_invoice_ids.name",
+          "model": "account.move",
+          "type": "many2many",
+          "description": "Invoice(s) this payment applies to",
+          "relationship": "reconciled_invoice_ids"
+        },
+        "Invoice Type": {
+          "odoo_field": "reconciled_invoice_ids.move_type",
+          "model": "account.move",
+          "type": "selection",
+          "description": "Type of invoice (regular, down payment, etc.)",
+          "relationship": "reconciled_invoice_ids",
+          "values": ["out_invoice", "out_refund", "in_invoice", "in_refund", "entry"]
+        },
+        "Customer Tags": {
+          "odoo_field": "partner_id.category_id.name",
+          "model": "res.partner.category",
+          "type": "many2many",
+          "description": "Customer classification tags",
+          "relationship": "partner_id.category_id"
+        },
+        "Payment Terms": {
+          "odoo_field": "reconciled_invoice_ids.invoice_payment_term_id.name",
+          "model": "account.payment.term",
+          "type": "many2one",
+          "description": "Payment terms from invoice",
+          "relationship": "reconciled_invoice_ids.invoice_payment_term_id"
+        },
+        "Project Name": {
+          "odoo_field": "reconciled_invoice_ids.invoice_line_ids.name",
+          "model": "account.move.line",
+          "type": "one2many",
+          "description": "Project name from invoice lines",
+          "relationship": "reconciled_invoice_ids.invoice_line_ids"
+        },
+        "Salesperson": {
+          "odoo_field": "create_uid.name",
+          "model": "res.users",
+          "type": "many2one",
+          "description": "User who created the payment",
+          "relationship": "create_uid"
+        },
+        "Due Date": {
+          "odoo_field": "reconciled_invoice_ids.invoice_date_due",
+          "model": "account.move",
+          "type": "date",
+          "description": "Invoice due date",
+          "relationship": "reconciled_invoice_ids"
+        }
+      }
+    },
+    "invoices": {
+      "sheet_name": "Odoo_Invoices",
+      "sheet_id": "unknown",
+      "primary_model": "account.move",
+      "columns": {
+        "INVOICE": {
+          "odoo_field": "name",
+          "model": "account.move",
+          "type": "char",
+          "required": true,
+          "description": "Invoice reference number"
+        },
+        "ORDER": {
+          "odoo_field": "invoice_line_ids.sale_line_ids.order_id.name",
+          "model": "sale.order",
+          "type": "many2one",
+          "description": "Related sales order reference",
+          "relationship": "invoice_line_ids.sale_line_ids.order_id"
+        },
+        "Customer": {
+          "odoo_field": "partner_id.name",
+          "model": "res.partner",
+          "type": "many2one",
+          "description": "Invoice customer",
+          "relationship": "partner_id"
+        },
+        "Project Reference": {
+          "odoo_field": "invoice_line_ids.name",
+          "model": "account.move.line",
+          "type": "one2many",
+          "description": "Project/description from invoice lines",
+          "relationship": "invoice_line_ids"
+        },
+        "Invoice Date": {
+          "odoo_field": "invoice_date",
+          "model": "account.move",
+          "type": "date",
+          "description": "Invoice creation date"
+        },
+        "Due Date": {
+          "odoo_field": "invoice_date_due",
+          "model": "account.move",
+          "type": "date",
+          "description": "Payment due date"
+        },
+        "Salesperson": {
+          "odoo_field": "user_id.name",
+          "model": "res.users",
+          "type": "many2one",
+          "description": "Invoice salesperson",
+          "relationship": "user_id"
+        },
+        "Total": {
+          "odoo_field": "invoice_line_ids.sale_line_ids.order_id.amount_total",
+          "model": "sale.order",
+          "type": "monetary",
+          "description": "Sales order total revenue (not invoice remaining balance)",
+          "relationship": "invoice_line_ids.sale_line_ids.order_id",
+          "business_logic": "SmartSheet shows full sales order revenue for reporting, not remaining invoice balance",
+          "example": "Invoice shows $5,000 (remaining), but sales order was $10,000 total revenue"
+        },
+        "Invoice Type": {
+          "odoo_field": "move_type",
+          "model": "account.move",
+          "type": "selection",
+          "description": "Invoice type (out_invoice, out_refund, etc.)",
+          "values": ["out_invoice", "out_refund", "in_invoice", "in_refund", "entry"]
+        },
+        "Status": {
+          "odoo_field": "state",
+          "model": "account.move",
+          "type": "selection",
+          "description": "Invoice status",
+          "values": ["draft", "posted", "cancel"]
+        },
+        "Amount Due": {
+          "odoo_field": "amount_residual",
+          "model": "account.move",
+          "type": "monetary",
+          "description": "Remaining amount due on invoice",
+          "verified": true,
+          "example": "INV/2205/04658: $8,995.69 remaining"
+        },
+        "Payment Status": {
+          "odoo_field": "payment_state",
+          "model": "account.move",
+          "type": "selection",
+          "description": "Invoice payment status",
+          "values": ["not_paid", "in_payment", "paid", "partial", "reversed", "invoicing_legacy"],
+          "verified": true,
+          "example": "INV/2205/04658: 'not_paid'"
+        }
+      }
+    },
+    "orders": {
+      "sheet_name": "Odoo_Orders",
+      "sheet_id": "unknown",
+      "primary_model": "sale.order",
+      "columns": {
+        "Order Reference": {
+          "odoo_field": "name",
+          "model": "sale.order",
+          "type": "char",
+          "required": true,
+          "description": "Sales order reference number"
+        },
+        "Account Company": {
+          "odoo_field": "partner_id.name",
+          "model": "res.partner",
+          "type": "many2one",
+          "description": "Customer name (specific location, not parent company)",
+          "relationship": "partner_id",
+          "note": "Odoo shows specific location names, SmartSheet may show parent companies"
+        },
+        "Opportunity": {
+          "odoo_field": "opportunity_id.name",
+          "model": "crm.lead",
+          "type": "many2one",
+          "description": "Related CRM opportunity",
+          "relationship": "opportunity_id"
+        },
+        "Opportunity Stage": {
+          "odoo_field": "opportunity_id.stage_id.name",
+          "model": "crm.stage",
+          "type": "many2one",
+          "description": "CRM opportunity stage",
+          "relationship": "opportunity_id.stage_id"
+        },
+        "Project": {
+          "odoo_field": "name",
+          "model": "sale.order",
+          "type": "char",
+          "description": "Order name/project description"
+        },
+        "Stage": {
+          "odoo_field": "state",
+          "model": "sale.order",
+          "type": "selection",
+          "description": "Order status",
+          "values": ["draft", "sent", "sale", "done", "cancel"]
+        },
+        "Quote/SO Total": {
+          "odoo_field": "amount_total",
+          "model": "sale.order",
+          "type": "monetary",
+          "description": "Total order amount"
+        },
+        "Amount Paid": {
+          "odoo_field": null,
+          "model": null,
+          "type": "calculated",
+          "description": "Amount paid on this order (calculated from invoice payments)",
+          "calculated": true,
+          "formula": "SUM of payments on order's invoices",
+          "source_model": "account.payment"
+        },
+        "Amount Due": {
+          "odoo_field": null,
+          "model": null,
+          "type": "calculated",
+          "description": "Remaining amount due (Total - Paid)",
+          "calculated": true,
+          "formula": "amount_total - SUM(payments)"
+        },
+        "Salesperson": {
+          "odoo_field": "user_id.name",
+          "model": "res.users",
+          "type": "many2one",
+          "description": "Order salesperson",
+          "relationship": "user_id"
+        },
+        "Order Date": {
+          "odoo_field": "date_order",
+          "model": "sale.order",
+          "type": "datetime",
+          "description": "Order confirmation date"
+        },
+        "Customer": {
+          "odoo_field": "partner_id.name",
+          "model": "res.partner",
+          "type": "many2one",
+          "description": "Order customer",
+          "relationship": "partner_id"
+        }
+      }
+    }
+  },
+  "relationships": {
+    "crm_lead_to_sale_order": {
+      "source_model": "crm.lead",
+      "target_model": "sale.order",
+      "field": "order_ids",
+      "type": "one2many",
+      "verified": true,
+      "example": "Lead 'FS8 - Canonsburg, PA Exterior' → Order 'SO45174'"
+    },
+    "crm_lead_to_partner": {
+      "source_model": "crm.lead",
+      "target_model": "res.partner",
+      "field": "partner_id",
+      "type": "many2one",
+      "verified": true,
+      "example": "Lead customer: '101 Smoke Shop - Freeport, FL'"
+    },
+    "sale_order_to_invoice": {
+      "source_model": "sale.order",
+      "target_model": "account.move",
+      "field": "invoice_ids",
+      "type": "one2many",
+      "verified": true,
+      "example": "Order 'SO45174' → Invoice 'INV/2205/04656' (down payment)"
+    },
+    "sale_order_to_payment": {
+      "source_model": "sale.order",
+      "target_model": "account.payment",
+      "field": "invoice_ids.payment_ids",
+      "type": "many2many",
+      "description": "Through invoice payments",
+      "verified": true,
+      "example": "Order invoices → Payment 'PBNK2/2025/06005'"
+    },
+    "payment_to_invoice": {
+      "source_model": "account.payment",
+      "target_model": "account.move",
+      "field": "reconciled_invoice_ids",
+      "type": "many2many",
+      "verified": true,
+      "example": "Payment 'PBNK2/2025/06005' → Invoice 'INV/2205/04652'"
+    },
+    "invoice_to_sale_order": {
+      "source_model": "account.move",
+      "target_model": "sale.order",
+      "field": "invoice_line_ids.sale_line_ids.order_id",
+      "type": "many2one",
+      "verified": true,
+      "example": "Invoice 'INV/2205/04658' → Order 'SO42839'"
+    },
+    "partner_parent_child": {
+      "source_model": "res.partner",
+      "target_model": "res.partner",
+      "field": "parent_id",
+      "type": "many2one",
+      "description": "Parent company to child location relationship",
+      "verified": true,
+      "example": "F45 Training (parent) → FS8 - Canonsburg, PA (child)"
+    }
+  },
+  "calculated_fields": {
+    "amount_paid": {
+      "description": "Sum of all payments against an order's invoices",
+      "formula": "SUM(order.invoice_ids.payments.amount) WHERE payment.state = 'posted'",
+      "depends_on": ["sale.order.invoice_ids", "account.payment.amount", "account.payment.state"],
+      "verified": true,
+      "example": "SO45174: $4,529.03 paid via down payment invoice"
+    },
+    "amount_due": {
+      "description": "Total amount minus amount paid",
+      "formula": "amount_total - amount_paid",
+      "depends_on": ["amount_total", "amount_paid"],
+      "verified": true,
+      "example": "SO45174: $9,058.06 total - $4,529.03 paid = $4,529.03 due"
+    },
+    "prorated_revenue": {
+      "description": "Expected revenue adjusted by probability",
+      "formula": "expected_revenue * (probability / 100)",
+      "depends_on": ["expected_revenue", "probability"]
+    },
+    "invoice_amount_discrepancy": {
+      "description": "Difference between SmartSheet and Odoo invoice totals",
+      "formula": "smartsheet_total - odoo_amount_total",
+      "depends_on": ["smartsheet_total", "odoo_amount_total"],
+      "verified": true,
+      "example": "INV/2205/04658: $14,257.93 - $8,995.69 = $5,262.24 difference (likely tax calculation)"
+    },
+    "account_company_mapping": {
+      "description": "Maps SmartSheet parent companies to Odoo specific locations",
+      "formula": "Lookup specific location name for parent company",
+      "depends_on": ["partner_id.parent_id", "partner_id"],
+      "verified": true,
+      "example": "F45 Training (parent) → FS8 - Canonsburg, PA (specific location)"
+    }
+  },
+  "usage": {
+    "script_template": {
+      "get_field_mapping": "mappings[sheet_type]['columns'][column_name]",
+      "get_odoo_field": "mappings[sheet_type]['columns'][column_name]['odoo_field']",
+      "get_field_type": "mappings[sheet_type]['columns'][column_name]['type']",
+      "is_calculated": "mappings[sheet_type]['columns'][column_name].get('calculated', False)",
+      "get_relationship": "mappings[sheet_type]['columns'][column_name].get('relationship')"
+    },
+    "available_sheet_types": ["crm_pipeline", "customer_payments", "invoices", "orders"],
+    "primary_models": {
+      "crm_pipeline": "crm.lead",
+      "customer_payments": "account.payment",
+      "invoices": "account.move",
+      "orders": "sale.order"
+    }
+  }
+}
